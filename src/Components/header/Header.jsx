@@ -3,12 +3,48 @@ import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react"; // hamburger & close icons
 
 const menu = [
-  { label: "Home", mLink: "/" },
-  { label: "About us", mLink: "/about" },
-  { label: "Services", mLink: "/services" },
-  { label: "Projects", mLink: "/projects" },
-  { label: "Blogs", mLink: "/blogs" },
-];
+    {
+        label: "Home",
+        mLink: "/"
+    },
+    {
+        label: "The Project",
+        mLink: "/theproject"
+    },
+    {
+        label: "Features",
+        mLink: "/"
+    },
+    {
+        label: "Location ",
+        mLink: "/"
+    },
+    {
+        label: "Plots & Pricing",
+        mLink: "/"
+    },
+     {
+        label: "Life at Nirvaana ",
+        mLink: "/LifeAtNirvaana"
+    },
+       {
+        label: "Gallery ",
+        mLink: "/gallery"
+    },
+       {
+        label: "Social impacts points",
+        mLink: "/"
+    },
+       {
+        label: "About the team ",
+        mLink: "/"
+    },
+       {
+        label: "Contact Us",
+        mLink: "/contact"
+    },
+]
+
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,12 +62,12 @@ function Header() {
         </Link>
 
         {/* Desktop Menu */}
-        <ul className="hidden lg:flex items-center gap-[50px]">
+        <ul className="hidden lg:flex items-center gap-[25px]">
           {menu.map((e, i) => (
             <Link
               key={i}
               to={e.mLink}
-              className="font-[400] font-inter text-[18px] leading-[20px] text-[#021E05] hover:text-[#6F7849] transition"
+              className="font-[400] font-Belleza text-[18px] leading-[20px] text-[#021E05] hover:text-[#6F7849] transition"
             >
               {e.label}
             </Link>
@@ -39,9 +75,9 @@ function Header() {
         </ul>
 
         {/* Desktop Button */}
-        <button className="hidden lg:block bg-[#6F7849] border border-[#6F7849] transition-all duration-300 hover:bg-transparent hover:text-[#6F7849] rounded-full py-[14px] px-[30px] font-[400] font-bricolage text-[18px] leading-[21px] text-white">
+        {/* <button className="hidden lg:block bg-[#6F7849] border border-[#6F7849] transition-all duration-300 hover:bg-transparent hover:text-[#6F7849] rounded-full py-[14px] px-[30px] font-[400] font-bricolage text-[18px] leading-[21px] text-white">
           Let's Talk
-        </button>
+        </button> */}
 
         {/* Mobile Hamburger */}
         <button
@@ -60,16 +96,16 @@ function Header() {
               <Link
                 key={i}
                 to={e.mLink}
-                className="font-[400] font-inter text-[18px] text-[#021E05] hover:text-[#6F7849] transition"
+                className="font-[400] font-Belleza text-[18px] text-[#021E05] hover:text-[#6F7849] transition"
                 onClick={() => setIsOpen(false)} // close menu on click
               >
                 {e.label}
               </Link>
             ))}
           </ul>
-          <button className="mt-6 w-full bg-[#6F7849] border border-[#6F7849] transition-all duration-300 hover:bg-transparent hover:text-[#6F7849] rounded-full py-[14px] px-[30px] font-[400] font-bricolage text-[18px] leading-[21px] text-white">
+          {/* <button className="mt-6 w-full bg-[#6F7849] border border-[#6F7849] transition-all duration-300 hover:bg-transparent hover:text-[#6F7849] rounded-full py-[14px] px-[30px] font-[400] font-bricolage text-[18px] leading-[21px] text-white">
             Let's Talk
-          </button>
+          </button> */}
         </div>
       )}
     </header>
