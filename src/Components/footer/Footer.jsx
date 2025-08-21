@@ -11,8 +11,7 @@ function Footer() {
                             <img src="/assets/nav/logo.png" className='h-[69px] w-[69px]' alt="logo" />
                         </Link>
                         <p className="pt-[22px] font-[400] font-inter text-[16px] leading-[24px] text-[#F9F7EF] lg:pb-[52px] md:pb-[30px] pb-[20px]">
-                            At Garden Tree, we believe that our success is intertwined
-                            with the prosperity of our customers.
+                          Nirvaana Hills is not just land — it’s a forest crafted for living
                         </p>
                         <div className="flex gap-[20px] md:gap-[30px]">
                             <Link to="/facebook">

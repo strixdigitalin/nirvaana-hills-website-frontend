@@ -9,6 +9,10 @@ import Features from './Pages/Features';
 import ContactUs from './Pages/ContactUs';
 import Gallery from './Pages/Gallery';
 import LifeAtNirvaana from './Pages/LifeAtNirvaana';
+import Teams from './Pages/Teams';
+import OurLegacy from './Pages/OurLegacy';
+import LocationPage from './Pages/LocationPage';
+import SocialImpact from './Pages/SocialImpact';
 function App() {
   return (
     <>
@@ -21,6 +25,13 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/LifeAtNirvaana" element={<LifeAtNirvaana />} />
+        <Route path="/teams" element={<Teams />} />
+        <Route path="/ourlegacy" element={<OurLegacy />} />
+        <Route path="/locationpage" element={<LocationPage />} />
+        <Route path="/socialimpact" element={<SocialImpact />} />
+
+
+        
       </Routes>
       <Footer />
     </>

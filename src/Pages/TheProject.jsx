@@ -15,9 +15,13 @@ function TheProject() {
    <div className='about-div-left'>
 <h3>About Nirvaana Hills</h3>
 <br/>
-<p>In today’s world of endless notifications, crowded cities, and constant rush, space has become a luxury. Nirvaana Hills offers exactly that space to breathe, to think, to slow down, and to reconnect with what truly matters.
-<br/><br/>Spread across 200 acres in the peaceful landscapes of Haryana, Nirvaana Hills is more than just a plotted development, it’s a return to a simpler, richer way of life. One that blends the best of nature with the comforts of modern living.
-<br/><br/>We’ve spent over three years getting to know this land, studying its contours, seasons, and natural rhythms to ensure our masterplan works with the environment, not against it. Here, families don’t just buy property; they invest in well-being, stronger relationships, and a sustainable future.
+<p>Tucked away amid rolling hills and lush greenery, this secluded farmhouse community offers more than just a piece of land.
+It offers a sense of belonging, a quiet return to life’s purest rhythms where time moves slower and nature takes the lead.
+This is where the dream of owning your own farmland becomes a graceful reality, inviting you to breathe deeper, live gently,
+and grow freely. For those who value stillness wrapped in sophistication and beauty rooted in meaning, this is the beginning
+of something truly personal.
+<br/>
+BEC A USE OWN I N G L A N D I S N ’ T JUS T A N I N V ES TME N T , I T ’ S A LEG A CY I N T H E MA KI N G
 
 </p>
     </div>
@@ -28,11 +32,9 @@ function TheProject() {
 
     <div className='meaning'>
     <h3>What Does Nirvaana Mean?</h3>
-    <p>The name Nirvaana comes from ancient Sanskrit, meaning “a state of perfect peace and freedom.”
-It represents a life beyond distractions, where the mind and soul find balance with nature.
-
-At Nirvaana Hills, this philosophy guides everything we do — from planting 100,000+ native trees to designing homes that welcome sunlight and fresh air. Here, Nirvaana is not just a word, but a way of living — calm, conscious, and deeply connected.</p>
-    <h4>Nirvaana = Peace. Balance. Harmony. Home.</h4>
+    <p>Derived from ancient Sanskrit, “Nirvaana” means liberation—freedom from the cycle of noise, stress, and daily entanglements.
+It is the ultimate state of bliss and balance. In Buddhism, it signifies a soul’s release into peace, purpose, and presence.</p>
+    <h3>Nirvaana ~ निर्वाणा </h3>
 
     </div>
     <div className='whyus-heading'>
@@ -42,48 +44,65 @@ At Nirvaana Hills, this philosophy guides everything we do — from planting 100
  <div className='whyus-card'>
 <img src={img2}/>
 <div className='whyus-text'>
-<h3>Prime Location in Nature’s Lap</h3>
-<p>Surrounded by lush greenery and serene landscapes, Nirvaana Hills offers you a life away from the city chaos yet connected to modern conveniences.</p>
+<h3>Premium Location</h3>
+<p>Premium location, nestled in the Aravallis of Haryana with Hills & forest cover on 3 sides.</p>
 
 </div>
     </div>
      <div className='whyus-card'>
 <img src={img2}/>
 <div className='whyus-text'>
-<h3>Thoughtful & Sustainable Living</h3>
-<p>From eco-friendly architecture to mindful landscaping, everything is designed to support sustainability and reduce the carbon footprint.</p>
+<h3>Affordable Entry</h3>
+<p>Affordable entry, without the premium price tags seen elsewhere</p>
 
 </div>
     </div>
      <div className='whyus-card'>
 <img src={img2}/>
 <div className='whyus-text'>
-<h3>A Legacy of Trust</h3>
-<p>Built on values of quality, commitment, and transparency, Nirvaana Hills carries forward a legacy that makes every resident proud to belong.</p>
+<h3>Integrated 200+ Acre Community</h3>
+<p>
+A single, 200~ acre integrated community, not scattered parcels</p>
 
 </div>
     </div>
      <div className='whyus-card'>
 <img src={img2}/>
 <div className='whyus-text'>
-<h3>Lifestyle That Inspires</h3>
-<p>A community where you can belong, grow, and live well — with spaces for wellness, recreation, and balance between work & life.</p>
+<h3>1 Lakh+ Trees Plantation</h3>
+<p>1 lakh+ trees being planted to create a forest-like, breathing environment</p>
 
 </div>
     </div>
      <div className='whyus-card'>
 <img src={img2}/>
 <div className='whyus-text'>
-<h3>Modern Amenities & Wellness Spaces</h3>
-<p>From state-of-the-art facilities to wellness-driven environments, every detail is curated to ensure a healthy, holistic lifestyle.</p>
+<h3>Golf Course & Clubhouse</h3>
+<p>Golf Course & modern Clubhouse for leisure and recreation.</p>
 
 </div>
     </div>
      <div className='whyus-card'>
 <img src={img2}/>
 <div className='whyus-text'>
-<h3>Community & Togetherness</h3>
-<p>Life here is about shared experiences — festivals, events, and everyday moments that bring people closer together.</p>
+<h3>2 Hours from Delhi & Gurgaon</h3>
+<p>Only a 2~hour drive from Delhi & Gurgaon, yet far from the noise and chaos</p>
+
+</div>
+    </div>
+      <div className='whyus-card'>
+<img src={img2}/>
+<div className='whyus-text'>
+<h3>Solar Powered Community</h3>
+<p>Solar Powered community with sustainable infrastructure.</p>
+
+</div>
+    </div>
+      <div className='whyus-card'>
+<img src={img2}/>
+<div className='whyus-text'>
+<h3>33 ft. Wide Internal Roads</h3>
+<p>33 ft. wide internal roads for easy accessibility and smooth connectivity.</p>
 
 </div>
     </div>

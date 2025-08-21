@@ -1,6 +1,8 @@
 import React from 'react'
 import OurSlider from '../Components/slider/OurSlider'
 import user from '../Assets/image 31.png'
+import Slider from '../Components/Slider'
+import Galleryslider from '../Components/Galleryslider'
 function Home() {
     return (
         <>
@@ -11,19 +13,26 @@ function Home() {
                         to providing innovative solutions for gardening.</p>
                     <button className='bg-[#6F7849] border border-[#6F7849] transition-all duration-300 hover:bg-[#FFFFFF] hover:text-[#6F7849] rounded-full py-[18px] px-[35px] font-[400] font-bricolage text-[18px] leading-[21px] text-[#FFFFFF]'>Get In Touch</button>
                 </section>
+                <Slider/>
                 <section className="lg:pt-[106px] pt-[60px] lg:px-[175px] px-[20px]">
                     <div className="flex lg:flex-row flex-col lg:gap-[100px] gap-[40px] justify-center items-center">
                         <div className="flex justify-center lg:justify-start">
                             <img
                                 src="/assets/home/img1.png"
                                 alt="About Nirvaana Hills"
-                                className="max-w-[500px] w-full h-auto object-contain"
+                                className="max-w-[400px] w-full h-auto object-contain"
                             />
                         </div>
                         <div>
                             <img src="/assets/nav/logo.png" className='h-[54px] w-[54px]' alt="" />
                             <h6 className="font-[600] font-cormorant text-[48px] leading-[58px] capitalize text-[#46543B]">about Nirvaana Hills</h6>
-                            <p className="max-w-[492px] w-full font-[400] font-inter text-[18px] leading-[27px] text-[#27342B] pb-[32px]">Nirvaana Hills, a 200-acre community. seeks a dynamic and user-friendly websites to reflect its ethos A world away,yet closer than you think. The website will showcases redefined farm living, blending modern convenience with natural tranquillity, and effectively communicate the community’s unique lifestyle offerings.</p>
+                            <p className="max-w-[492px] w-full font-[400] font-inter text-[18px] leading-[27px] text-[#27342B] pb-[32px]">Tucked amidst rolling hills and greenery,
+a hidden world awaits - quiet, rooted, real.
+Not just land, but a return to life’s purest rhythms.
+Where time slows, and nature gently takes over.
+A place to breathe deeper, live softer, and grow freely.
+Because owning land isn’t just an investment -
+It’s a legacy in the making</p>
                             <div className="flex items-center gap-[10px]">
                                 <p className="font-[400] font-bricolage text-[18px] leading-[22px] text-[#021E05]">About Us</p>
                                 <img src="/assets/home/arrow.svg" alt="" />
@@ -33,7 +42,7 @@ function Home() {
                 </section>
 
                 <section className='our-section'>
-                    <div className='pt-[80px] relative z-10'>
+                    {/* <div className='pt-[80px] relative z-10'>
                         <div className="grid lg:grid-cols-4 grid-cols-1 pb-[204px]">
                             <div className='flex flex-col items-center gap-[10px] justify-center'>
                                 <h6 className="font-[500] font-bricolage text-[62px] leading-[74px] text-center text-[#46543B]">29</h6>
@@ -52,7 +61,11 @@ function Home() {
                                 <p className="font-[500] font-bricolage text-[20px] leading-[24px] text-center text-[#27342B]">Partner Companies</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                     <div className='lg:pl-[100px] pl-[20px] pb-[140px] flex lg:gap-[100px] gap-[20px] lg:flex-row flex-col'>
                         <div className='max-w-[162px] w-full'>
                             <h6 className="font-[600] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF]">Our Services</h6>
@@ -67,44 +80,78 @@ function Home() {
                         that enrich lives</h6>
                     <div className='grid grid-cols-1 gap-[32px]'>
                         <div className='flex gap-[34px] lg:flex-row justify-center items-start flex-col'>
-                            <div className="max-w-[494px] w-full rounded-[30px] relative">
+                            <div className="max-w-[350px] w-full rounded-[30px] relative">
                                 <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
-                                <img src="/assets/home/img3.jpg" className='w-full h-[367px] object-cover rounded-[30px]' alt="" />
+                                <img src="/assets/home/img3.jpg" className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
-                                    <h6 className="font-[500] font-cormorant text-[36px] pb-[15px] leading-[44px] text-[#FFFFFF]">Modern Zen Retreat</h6>
-                                    <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[60px] font-bricolage text-[18px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+                                    <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Belonging</h6>
+                                                                      <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+
                                 </div>
                             </div>
-                            <div className="w-full lg:max-w-[714px] rounded-[30px] relative">
+                             <div className="max-w-[350px] w-full rounded-[30px] relative">
                                 <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
-                                <img src="/assets/home/img4.jpg" className='w-full rounded-[30px] h-[367px] object-cover' alt="" />
+                                <img src="/assets/home/img3.jpg" className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
-                                    <h6 className="font-[500] font-cormorant text-[36px] pb-[15px] leading-[44px] text-[#FFFFFF]">Modern Zen Retreat</h6>
-                                    <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[60px] font-bricolage text-[18px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+                                    <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Grow wild, grow free</h6>
+                                                                        <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+
+                                </div>
+                            </div>
+                            <div className="w-full lg:max-w-[500px] rounded-[30px] relative">
+                                <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
+                                <img src="/assets/home/img4.jpg" className='w-full rounded-[30px] h-[250px] object-cover' alt="" />
+                                <div className='absolute bottom-0 p-[40px] left-0 w-full'>
+                                    <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Sustainability </h6>
+                                                                        <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-col lg:flex-row items-start justify-center gap-[20px] lg:gap-[34px]">
-                            <div className="w-full lg:max-w-[714px] rounded-[30px] relative">
+                            <div className="w-full lg:max-w-[400px] rounded-[30px] relative">
                                 <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
-                                <img src="/assets/home/img5.jpg" className='w-full rounded-[30px] h-[367px] object-cover' alt="" />
+                                <img src="/assets/home/img5.jpg" className='w-full rounded-[30px] h-[250px] object-cover' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
-                                    <h6 className="font-[500] font-cormorant text-[36px] pb-[15px] leading-[44px] text-[#FFFFFF]">Modern Zen Retreat</h6>
-                                    <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[60px] font-bricolage text-[18px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+                                    <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Wellness</h6>
+                                                                        <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+
                                 </div>
                             </div>
-                            <div className="w-full lg:max-w-[494px] rounded-[30px] relative">
+                            <div className="w-full lg:max-w-[250px] rounded-[30px] relative">
                                 <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
-                                <img src="/assets/home/img6.jpg" className='w-full h-[367px] object-cover rounded-[30px]' alt="" />
+                                <img src="/assets/home/img6.jpg" className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
-                                    <h6 className="font-[500] font-cormorant text-[36px] pb-[15px] leading-[44px] text-[#FFFFFF]">Modern Zen Retreat</h6>
-                                    <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[60px] font-bricolage text-[18px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+                                    <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Work Life balance</h6>
+                                    <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+
+                                </div>
+                            </div>
+                               <div className="w-full lg:max-w-[300px] rounded-[30px] relative">
+                                <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
+                                <img src="/assets/home/img6.jpg" className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
+                                <div className='absolute bottom-0 p-[40px] left-0 w-full'>
+                                    <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Restart Life together</h6>
+                                    <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+                                </div>
+                            </div>
+                               <div className="w-full lg:max-w-[200px] rounded-[30px] relative">
+                                <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
+                                <img src="/assets/home/img6.jpg" className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
+                                <div className='absolute bottom-0 p-[40px] left-0 w-full'>
+                                    <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">The legacy</h6>
+                                                                        <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[15px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+
                                 </div>
                             </div>
                         </div>
+                       
                     </div>
                 </section>
-                <section className='pt-[66px] lg:pl-[120px] pl-[20px] '>
+                <div>
+                    <Galleryslider/>
+                </div>
+                {/* <section className='pt-[66px] lg:pl-[120px] pl-[20px] '>
                     <div className="flex lg:flex-row flex-col items-center justify-between">
                         <div>
                             <h6 className="font-[500] font-cormorant text-[48px] leading-[58px] text-[#46543B]">Life At Nirvaana</h6>
@@ -136,7 +183,7 @@ function Home() {
                             />
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className='lg:pt-[130px] pt-[70px]'>
                     <h6 className="font-[500] text-center lg:pb-[58px] pb-[40px] font-cormorant text-[48px] leading-[58px] text-[#46543B]">Testimonials</h6>
                 </section>
