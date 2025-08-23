@@ -101,7 +101,10 @@ padding: 20px 30px;
   padding: 150px 50px;
   padding-top: 200px;
   text-align: center;
-
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .ab-banner-overlay h3{
   font-size: 70px;
@@ -119,10 +122,10 @@ gap: 50px;
 
 }
 .about-div-left{
-  width: 50%;
+  width: 55%;
 }
 .about-div-right{
-  width: 50%;
+  width: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,18 +147,19 @@ gap: 50px;
   font-weight: 400;
 }
 .meaning{
-  padding: 130px;
+  padding: 50px 130px;
    background-image: url(./Assets/Group\ 10.png);
    background-size: cover;
    background-position: bottom;
+  
 }
 .meaning2{
-  padding: 200px 300px;
+  padding: 2000px 300px;
   padding-bottom: 150px;
   
 }
 .meaning h3{
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 400;
   color: #354123;
   text-align: center;
@@ -166,7 +170,7 @@ gap: 50px;
   color: #354123;
   text-align: center;
   margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .meaning h4{
   font-size: 25px;
@@ -312,6 +316,9 @@ background-repeat: no-repeat;
   border-radius: 20px;
   background-color: #354123;
 
+}
+.whyus-card2{
+width: 30% ;
 }
 .whyus-card img{
   width: 100%;
@@ -601,13 +608,57 @@ background-repeat: no-repeat;
   font-size: 18px;
   margin-top: 15px;
 }
+.Features-div2-left ul{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
 .Features-div2-left ul li{
-  margin-top: 15px;
-  font-size: 22px;
+  margin-top: 10px;
+  font-size: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  /* background-color: #354123; */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+
+}
+.f-tab1{
+  background-color: #354123 !important;
+
+}
+
+.f-tab2{
+  background-color: #596944 !important;
+
+}
+.f-tab3{
+  background-color: #618e25 !important;
+
+}
+.f-tab4{
+  background-color: #98b76f !important;
+
+}
+.f-tab5{
+  background-color: #4e8506 !important;
+
+}
+.f-tab5{
+  background-color: #83c52d !important;
+
+}
+.f-tab6{
+  background-color: #339e43 !important;
+
+}
+.f-tab7{
+  background-color: #286b0f !important;
 
 }
 .Features-div2-right{
@@ -638,7 +689,31 @@ background-repeat: no-repeat;
   margin-top: 25px;
  
 }
+.OurLegacy-div ul{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
 
+
+}
+.OurLegacy-div ul li{
+  width: 30%;
+
+  font-size: 18px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  background-color: #515d3e;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+
+}
 .seedlogo{
   padding: 20px 50px;
   background-color: #EEF2E6;
@@ -714,4 +789,87 @@ background-repeat: no-repeat;
 .banner-btn{
   height: 50px;
   border-radius: 10px;
+}
+.founders{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  text-align: justify;
+}
+.founders-div{
+  width: 50%;
+  background-color: #7f8f68;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px -6px #3541236e;
+  color: white;
+}
+.OurLegacy-div2{
+  display: flex;
+  flex-direction: row;
+}
+.OurLegacy-div-left{
+  width: 50%;
+}
+.OurLegacy-div-right{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.OurLegacy-div-right img{
+  width: 80%;
+}
+.OurLegacy-div3{
+  background-image: url(./Assets/hills\ back.png);
+  background-size: cover;
+  background-position: bottom;
+  padding: 0;
+  color: white !important;
+  text-align: center;
+}
+.legacyoverlay{
+  background-color: #eef2e600;
+  padding: 50px;
+
+}
+.home-aboutus{
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(./Assets/ourstory.jpg);
+}
+.home-aboutus-overlay{
+  padding: 150px 50px;
+  background-color: rgba(0, 0, 0, 0.672);
+
+}
+.home-aboutus h3{
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.home-aboutus h4{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.home-aboutus p{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+  line-height: 1.6;
+
+}
+.Garamond{
+  font-family: "EB Garamond", serif;
+}
+.Belleza{
+font-family: "Belleza", sans-serif;
+}
+.ab-banner2{
+  background-image: url(./Assets/project\ banner.jpg);
+  background-size: cover;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../../Assets/white logo.png'
 
 function Footer() {
     return (
@@ -8,7 +9,7 @@ function Footer() {
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-[70px] md:gap-[40px] gap-[20px]'>
                     <div>
                         <Link to="/">
-                            <img src="/assets/nav/logo.png" className='h-[69px] w-[69px]' alt="logo" />
+                            <img src={logo} className='h-[150px] ' alt="logo" />
                         </Link>
                         <p className="pt-[22px] font-[400] font-inter text-[16px] leading-[24px] text-[#F9F7EF] lg:pb-[52px] md:pb-[30px] pb-[20px]">
                           Nirvaana Hills is not just land — it’s a forest crafted for living

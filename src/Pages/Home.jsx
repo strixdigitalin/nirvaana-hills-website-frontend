@@ -57,7 +57,7 @@ function Home() {
       </motion.div>
     </section>
                 <Slider/>
-                <section className="lg:pt-[106px] pt-[60px] lg:px-[175px] px-[20px]">
+                {/* <section className="lg:pt-[106px] pt-[60px] lg:px-[175px] px-[20px]">
                     <div className="flex lg:flex-row flex-col lg:gap-[100px] gap-[40px] justify-center items-center">
                         <div className="flex justify-center lg:justify-start">
                             <img
@@ -82,8 +82,36 @@ It’s a legacy in the making</p>
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
+  <div className='home-aboutus'>
+<div className='home-aboutus-overlay'>
 
+<h3 className='Garamond'>OUR STORY UNFLODS</h3>
+<p>Tucked away amid rolling hills and lush greenery, this secluded 
+ 
+
+ 200~farmland<br/> community offers more than just a piece of land.
+ <br/>
+ <br/>
+It offers a sense of belonging, a quiet return to life’s purest rhythms where
+
+
+ time <br/> moves slower and nature takes the lead. 
+ <br/>
+ <br/>
+This is where the dream of owning your own farmland becomes a graceful 
+
+reality,
+ <br/>
+  inviting you to breathe deeper, live gently, and grow freely. 
+ <br/>
+ <br/>
+For those who value stillness wrapped in sophistication and beauty rooted in <br/> meaning, this is the beginning of something truly personal.</p>
+ <br/>
+ <h4>BECAUSE OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING</h4>
+
+</div>
+</div>
                 <section className='our-section'>
                     {/* <div className='pt-[80px] relative z-10'>
                         <div className="grid lg:grid-cols-4 grid-cols-1 pb-[204px]">
@@ -111,7 +139,7 @@ It’s a legacy in the making</p>
                     <br/>
                     <div className='lg:pl-[100px] pl-[20px] pb-[140px] flex lg:gap-[100px] gap-[20px] lg:flex-row flex-col'>
                         <div className='max-w-[162px] w-full'>
-                            <h6 className="font-[600] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF]">Our Services</h6>
+                            <h6 className="font-[600] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF]">OUR FEATURES</h6>
                         </div>
                         <div className="w-full overflow-hidden">
                             <OurSlider />
@@ -119,7 +147,7 @@ It’s a legacy in the making</p>
                     </div>
                 </section>
                 <section className='bg-[#46543B] pt-[25px] pb-[100px] lg:px-[100px] px-[20px]'>
-                    <h6 className="font-[500] text-center max-w-[504px] w-full mx-auto lg:pb-[80px] pb-[40px] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF]">Life At Nirvaana</h6>
+                    <h6 className="font-[500] text-center max-w-[504px] w-full mx-auto lg:pb-[80px] pb-[40px] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF]">LIFE AT NIRVAANA</h6>
                     <div className='grid grid-cols-1 gap-[32px]'>
                         <div className='flex gap-[34px] lg:flex-row justify-center items-start flex-col'>
                             <div className="max-w-[350px] w-full rounded-[30px] relative">
@@ -227,7 +255,7 @@ It’s a legacy in the making</p>
                     </div>
                 </section> */}
                 <section className='lg:pt-[130px] pt-[70px]'>
-                    <h6 className="font-[500] text-center lg:pb-[58px] pb-[40px] font-cormorant text-[48px] leading-[58px] text-[#46543B]">Testimonials</h6>
+                    <h6 className="font-[500] text-center lg:pb-[58px] pb-[40px] font-cormorant text-[48px] leading-[58px] text-[#46543B]">TESTIMONIALS</h6>
                 </section>
                 <div className='testimonial-cards'>
  <div className='testimonial-card'>

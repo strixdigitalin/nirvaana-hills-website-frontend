@@ -1,4 +1,12 @@
 import React from 'react'
+import img2 from '../Assets/ist4.jpg'
+import img3 from '../Assets/ist7.jpg'
+import img4 from '../Assets/ist8.jpg'
+import img5 from '../Assets/ist2.jpg'
+import img6 from '../Assets/golf-facility-water.jpg'
+import img7 from '../Assets/near.jpg'
+import img8 from '../Assets/Solar Powered Community.jpg'
+import img9 from '../Assets/nhai.avif'
 
 function SocialImpact() {
   return (
@@ -9,7 +17,7 @@ function SocialImpact() {
     </div>
     </div>
 
-    <div className='SocialImpact-div'>
+    {/* <div className='SocialImpact-div'>
     <div className='impact-card'>
         <div className='impact-circle'>
 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tree-palm-icon lucide-tree-palm"><path d="M13 8c0-2.76-2.46-5-5.5-5S2 5.24 2 8h2l1-1 1 1h4"/><path d="M13 7.14A5.82 5.82 0 0 1 16.5 6c3.04 0 5.5 2.24 5.5 5h-3l-1-1-1 1h-3"/><path d="M5.89 9.71c-2.15 2.15-2.3 5.47-.35 7.43l4.24-4.25.7-.7.71-.71 2.12-2.12c-1.95-1.96-5.27-1.8-7.42.35"/><path d="M11 15.5c.5 2.5-.17 4.5-1 6.5h4c2-5.5-.5-12-1-14"/></svg>
@@ -80,7 +88,62 @@ generations will cherish.</p>
     </div>
 
        
-    </div>
+    </div> */}
+
+    <>
+            <div className='whyus'>
+         <div className='whyus-card whyus-card2 f-tab1'>
+        <img src={img2}/>
+        <div className='whyus-text'>
+        <h3>Where nature thrives</h3>
+        <p>With over a lakh trees planted, we are building a greener tomorrow and a sanctuary where nature thrives.</p>
+        
+        </div>
+            </div>
+             <div className='whyus-card whyus-card2 f-tab2'>
+        <img src={img3}/>
+        <div className='whyus-text'>
+        <h3>NGO contributions</h3>
+        <p>A portion of our revenue will be directed to NGOs working on various social and environmental causes.</p>
+        
+        </div>
+            </div>
+             <div className='whyus-card whyus-card2 f-tab3'>
+        <img src={img4}/>
+        <div className='whyus-text'>
+        <h3>Support for local Institutions</h3>
+        <p>
+       We plan to improve infrastructure & resources of five nearby government schools and one hospital, fostering better education and healthcare for the community.</p>
+        
+        </div>
+            </div>
+             <div className='whyus-card whyus-card2 f-tab4' >
+        <img src={img5}/>
+        <div className='whyus-text'>
+        <h3>Employment opportunities</h3>
+        <p>By hiring locals, we aim to create new job opportunities, boosting the economic growth of the area and enhancing community well-being.</p>
+        
+        </div>
+            </div>
+             <div className='whyus-card whyus-card2 f-tab6'>
+        <img src={img6}/>
+        <div className='whyus-text'>
+        <h3>Women empowerment</h3>
+        <p>Empowering women through education, skills, and jobs to ensure their active role in community building</p>
+        
+        </div>
+            </div>
+             <div className='whyus-card whyus-card2 f-tab7'>
+        <img src={img7}/>
+        <div className='whyus-text'>
+        <h3>Legacy of Impact</h3>
+        <p>An investment in Nirvaana Hills is more than financial - it’s a legacy your future generations will cherish.</p>
+        
+        </div>
+            </div>
+           
+            </div>
+    </>
    </>
   )
 }
