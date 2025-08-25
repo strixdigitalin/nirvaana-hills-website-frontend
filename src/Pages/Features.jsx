@@ -3,11 +3,14 @@ import img1 from '../Assets/f1.png'
 import img2 from '../Assets/f2.png'
 import img3 from '../Assets/f3.png'
 import img4 from '../Assets/f4.png'
-import img from '../Assets/Screenshot 2025-08-21 171419.png'
+import img from '../Assets/project1.png'
+import com from '../Assets/comunity.png'
+import Clubhouse from '../Assets/clube.png'
+import Individual from '../Assets/indu.png'
 function Features() {
   return (
    <>
-        <div className='ab-banner'>
+        <div className='ab-banner ab-banner3'>
  <div className='ab-banner-overlay'>
 <h3>Features</h3>
     </div>
@@ -65,12 +68,12 @@ at core</li>
 </ul>
     </div>
         <div className='Features-div2-right'>
-<img src={img}/>
+<img src={com}/>
     </div>
     </div>
      <div className='Features-div2'>
        <div className='Features-div2-right'>
-<img src={img}/>
+<img src={Individual}/>
     </div>
     <div className='Features-div2-left'>
     <h3 className='Belleza'>Individual features</h3>
@@ -126,7 +129,7 @@ center</li>
 </ul>
     </div>
         <div className='Features-div2-right'>
-<img src={img}/>
+<img src={Clubhouse}/>
     </div>
     </div>
    </>

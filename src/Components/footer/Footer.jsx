@@ -56,15 +56,16 @@ function Footer() {
                         <div className='grid grid-cols-1 gap-[16px] md:gap-[20px]'>
                             <div className="flex items-start gap-[14px]">
                                 <img src="/assets/footer/location.svg" alt="location" />
-                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">2307 Beverley, New York</p>
+                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">Nirvaana Hills, Naurangabas Rajputana, Near Akoda,
+Mahendragarh, Haryana - 127310</p>
                             </div>
                             <div className="flex items-center gap-[14px]">
                                 <img src="/assets/footer/call.svg" alt="call" />
-                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">+ (0777) 888 88 888</p>
+                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">0124 4071184</p>
                             </div>
                             <div className="flex items-center gap-[14px]">
                                 <img src="/assets/footer/mail.svg" alt="mail" />
-                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">information@office.com</p>
+                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">info@seadrealty.com </p>
                             </div>
                             <div className="flex items-start gap-[14px]">
                                 <img src="/assets/footer/clock.svg" alt="clock" />

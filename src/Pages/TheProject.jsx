@@ -41,7 +41,7 @@ BECAUSE OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING
     <div className='home-aboutus'>
 <div className='home-aboutus-overlay'>
 
-<h3 className='Garamond'>OUR STORY UNFLODS</h3>
+<h3 className='Garamond'>OUR STORY UNFOLDS</h3>
 <p>Tucked away amid rolling hills and lush greenery, this secluded 
  
 

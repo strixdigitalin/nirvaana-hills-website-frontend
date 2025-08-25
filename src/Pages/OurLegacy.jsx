@@ -4,7 +4,7 @@ import seedlogo2 from '../Assets/Nirvaana Hills logo.png'
 function OurLegacy() {
   return (
     <>
-    <div className='ab-banner'>
+    <div className='ab-banner ab-banner7'>
  <div className='ab-banner-overlay'>
 <h3>Our Legacy</h3>
     </div>

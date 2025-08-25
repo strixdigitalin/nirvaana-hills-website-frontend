@@ -96,6 +96,33 @@ padding: 20px 30px;
   background-image: url(./Assets/img2.png);
   background-size: cover;
 }
+.ab-banner3{
+  background-image: url(./Assets/real\ \(1\).jpeg) !important;
+  background-position: center;
+
+}
+.ab-banner4{
+  background-image: url(./Assets/real\ \(5\).png);
+
+}
+.ab-banner5{
+  background-image: url(./Assets/real\ \(3\).jpeg);
+
+}
+.ab-banner6{
+  background-image: url(./Assets/real\ \(1\).png);
+
+}
+.ab-banner7{
+  background-image: url(./Assets/real\ \(6\).jpeg);
+  background-position: center;
+
+}
+.ab-banner8{
+  background-image: url(./Assets/real\ \(5\).png);
+  background-position: center;
+
+}
 .ab-banner-overlay{
   background-color: rgba(0, 0, 0, 0.372);
   padding: 150px 50px;
@@ -445,20 +472,20 @@ width: 30% ;
   background-position: bottom;
 }
 .Home-slider12{
-   background-image: url(./Assets/ist13.jpg);
+   background-image: url(./Assets/high-angle-shot-beautiful-green-fields-surrounded-by-trees-cloudy-sky.jpg) !important;
   background-position: center;
 }
 .Home-slider33{
-     background-image: url(./Assets/ist7.jpg);
+     background-image: url(./Assets/fort.jpg) !important;
   background-position: bottom;
 }
 .Home-slider44{
-   background-image: url(./Assets/golf-facility-water.jpg);
+   background-image: url(./Assets/banner\ golf.jpg) !important;
   background-position: bottom;
 }
 .Home-slider55{
-   background-image: url(./Assets/ist6.jpg);
-  background-position: bottom;
+   background-image: url(./Assets/clubhouse\ banner.jpg) !important;
+  background-position: bottom; 
 }
 .Home-slider-overlay p{
   color: white;
@@ -872,4 +899,104 @@ font-family: "Belleza", sans-serif;
 .ab-banner2{
   background-image: url(./Assets/project\ banner.jpg);
   background-size: cover;
+}
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 18px;
+}
+.newfeatures{
+  padding: 50px;
+  background-image: url(./Assets/Group\ 10.png);
+}
+.newfeatures-heading{
+  text-align: center;
+  font-size: 50px;
+}
+.newfeatures-card{
+  width: 300px;
+  background-image: url(./Assets/200.jpg);  
+  background-position: bottom;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px -6px #3541235c;
+  color:white;
+  background-size: cover;
+}
+.newfeatures-card2{
+    background-image: url(./Assets/fort.jpg);  
+}
+.newfeatures-card4{
+    background-image: url(./Assets/brother-sister-playing-with-kite-plane-field-sunset.jpg);  
+}
+.newfeatures-card3{
+    background-image: url(./Assets/f3.png);  
+}
+.newfeatures-card-overlay{
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  height: 100%;
+}
+.newfeatures-card h3{
+  font-size: 22px;
+  font-weight: 600;
+}
+.newfeatures-card p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.newfeatures-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.ab-banner-img{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ab-banner-img img{
+  width: 70%;
+}
+.location-text{
+  padding: 50px;
+  background-color: #EEF2E6;
+}
+.location-text-div{
+  width: 30%;
+  box-shadow: 0px 0px 15px -6px #3541236e;
+  border-radius: 20px;
+  padding: 20px;
+}
+.location-text-div h3{
+  font-size: 30px;
+  font-weight: 500;
+  color: #354123;
+  text-align: center;
+}
+.location-text{
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.location-text-div ul{
+  margin-top: 15px;
+}
+.location-text-div ul li{
+  font-size: 18px;
+  font-weight: 400;
+  color: #354123;
+  margin-top: 10px;
+
 }

@@ -56,7 +56,7 @@ const timelineData = [
 const LifeAtNirvaana = () => {
   return (
     <>
-       <div className='ab-banner'>
+       <div className='ab-banner ab-banner4'>
  <div className='ab-banner-overlay'>
 <h3>Life At Nirvaana</h3>
     </div>

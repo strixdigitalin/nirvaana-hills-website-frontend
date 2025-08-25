@@ -86,7 +86,7 @@ It’s a legacy in the making</p>
   <div className='home-aboutus'>
 <div className='home-aboutus-overlay'>
 
-<h3 className='Garamond'>OUR STORY UNFLODS</h3>
+<h3 className='Garamond'>ABOUT NIRVAANA</h3>
 <p>Tucked away amid rolling hills and lush greenery, this secluded 
  
 
@@ -112,8 +112,45 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
 
 </div>
 </div>
-                <section className='our-section'>
-                    {/* <div className='pt-[80px] relative z-10'>
+<div className='newfeatures'>
+<div className='newfeatures-heading'>
+<h3 className='Belleza'>OUR FEATURES</h3>
+</div>
+<div className='newfeatures-cards'>
+<div className='newfeatures-card'>
+<div className='newfeatures-card-overlay'>
+
+<h3>Living thoughtfully designed</h3>
+<p>Designed for those who seek harmony with nature and effortless living, Nirvaana Hills blends European-inspired charm with nature-led design. Its layout balances openness, sustainability, and serenity, where every path, view, and detail is designed with purpose and care.</p>
+</div>
+</div>
+<div className='newfeatures-card newfeatures-card2'>
+<div className='newfeatures-card-overlay'>
+
+<h3>Your everyday retreat</h3>
+<p>Here’s where everyday life feels a little brighter. A place buzzing with energy, laughter, and the simple joys of being together. Whether it’s friendly matches, lazy afternoons, or catching up with neighbours, there’s always something happening and always a reason to stay a little longer.</p>
+</div>
+</div>
+<div className='newfeatures-card newfeatures-card3'>
+<div className='newfeatures-card-overlay'>
+
+<h3>Where nature nurtures community</h3>
+<p>Nirvaana Hills is where the beauty of the hills meets the warmth of community. It’s where neighbours become friends and every corner invites togetherness, in shared adventures and moments that bring you closer to each other. Here, life flows easily, surrounded by nature and experiences to treasure.</p>
+</div>
+</div>
+<div className='newfeatures-card newfeatures-card4'>
+<div className='newfeatures-card-overlay'>
+
+<h3>The finer details</h3>
+<p>Here, every farmhouse opens to vast greens & complete privacy. From inviting pathways to welcoming entrances, nature and comfort meet in perfect balance. Wide open spaces surround each home, offering room to breathe and unwind. Every window captures a view worth pausing for.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+                {/* <section className='our-section'>
+                    <div className='pt-[80px] relative z-10'>
                         <div className="grid lg:grid-cols-4 grid-cols-1 pb-[204px]">
                             <div className='flex flex-col items-center gap-[10px] justify-center'>
                                 <h6 className="font-[500] font-bricolage text-[62px] leading-[74px] text-center text-[#46543B]">29</h6>
@@ -132,22 +169,22 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                                 <p className="font-[500] font-bricolage text-[20px] leading-[24px] text-center text-[#27342B]">Partner Companies</p>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <br/>
                     <br/>
                     <br/>
                     <br/>
                     <div className='lg:pl-[100px] pl-[20px] pb-[140px] flex lg:gap-[100px] gap-[20px] lg:flex-row flex-col'>
                         <div className='max-w-[162px] w-full'>
-                            <h6 className="font-[600] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF]">OUR FEATURES</h6>
+                            <h6 className="font-[600] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF] Belleza">OUR FEATURES</h6>
                         </div>
                         <div className="w-full overflow-hidden">
                             <OurSlider />
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className='bg-[#46543B] pt-[25px] pb-[100px] lg:px-[100px] px-[20px]'>
-                    <h6 className="font-[500] text-center max-w-[504px] w-full mx-auto lg:pb-[80px] pb-[40px] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF]">LIFE AT NIRVAANA</h6>
+                    <h6 className="font-[500] text-center max-w-[504px] w-full mx-auto lg:pb-[80px] pb-[40px] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF] Belleza">LIFE AT NIRVAANA</h6>
                     <div className='grid grid-cols-1 gap-[32px]'>
                         <div className='flex gap-[34px] lg:flex-row justify-center items-start flex-col'>
                             <div className="max-w-[350px] w-full rounded-[30px] relative">
@@ -254,8 +291,8 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                         </div>
                     </div>
                 </section> */}
-                <section className='lg:pt-[130px] pt-[70px]'>
-                    <h6 className="font-[500] text-center lg:pb-[58px] pb-[40px] font-cormorant text-[48px] leading-[58px] text-[#46543B]">TESTIMONIALS</h6>
+                {/* <section className='lg:pt-[130px] pt-[70px]'>
+                    <h6 className="font-[500] text-center lg:pb-[58px] pb-[40px] font-cormorant text-[48px] leading-[58px] text-[#46543B] Belleza">TESTIMONIALS</h6>
                 </section>
                 <div className='testimonial-cards'>
  <div className='testimonial-card'>
@@ -297,7 +334,7 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
  </div>
 
                 </div>
-                </div>
+                </div> */}
             </div>
          
         </>

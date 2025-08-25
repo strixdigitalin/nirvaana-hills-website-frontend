@@ -49,7 +49,7 @@ function Slider() {
         <SwiperSlide>
           <div className='Home-slider1 Home-slider33'>
             <div className='Home-slider-overlay'>
-              <h3>Aravallis</h3>
+              <h3>At the Foot of the Aravallis</h3>
               <p>Wake up to the breathtaking views of the majestic Aravalli Hills, blending natural beauty with peaceful living.</p>
               <button>Read More</button>
             </div>
@@ -59,7 +59,7 @@ function Slider() {
         <SwiperSlide>
           <div className='Home-slider1 Home-slider44'>
             <div className='Home-slider-overlay'>
-              <h3>Golf Course</h3>
+              <h3>Living by the Golf Course</h3>
               <p>Enjoy the luxury of a world-class golf course at your doorstep, crafted for leisure and lifestyle.</p>
               <button>Read More</button>
             </div>
@@ -69,7 +69,7 @@ function Slider() {
         <SwiperSlide>
           <div className='Home-slider1 Home-slider55'>
             <div className='Home-slider-overlay'>
-              <h3>Clubhouse</h3>
+              <h3>The Clubhouse at Nirvaana</h3>
               <p>Celebrate life at our exclusive clubhouse with modern amenities, recreation, and premium gatherings.</p>
               <button>Read More</button>
             </div>

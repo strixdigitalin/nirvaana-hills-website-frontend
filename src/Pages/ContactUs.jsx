@@ -4,7 +4,7 @@ import React from 'react'
 function ContactUs() {
   return (
     <>
-        <div className='ab-banner'>
+        <div className='ab-banner ab-banner8'>
  <div className='ab-banner-overlay'>
 <h3>Contact Us</h3>
     </div>
@@ -44,7 +44,12 @@ function ContactUs() {
     
     <div>
     <h4>Social Media</h4>
-    <p>hello@nirvaanahills.com</p>
+    <div className='social-icons'>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-linkedin"></i>
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+    </div>
     </div>
    </div>
     </div>

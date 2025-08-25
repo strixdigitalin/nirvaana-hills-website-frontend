@@ -27,7 +27,7 @@ function OurSlider() {
         ]
     };
 
-    // 👇 Array of objects for slider data
+   
     const sliderData = [
         {
             img: "/assets/home/img2.png",

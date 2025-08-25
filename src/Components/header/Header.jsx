@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import whatsapp from '../../Assets/WhatsApp.webp'
+import call from '../../Assets/call icon.png'
 
 const menu = [
   {
@@ -157,6 +159,8 @@ function Header() {
           </div>
         )}
       </header>
+      <img className="whatsapp-icon" src={whatsapp}/>
+      <img className="call-icon" src={call}/>
     </div>
   );
 }

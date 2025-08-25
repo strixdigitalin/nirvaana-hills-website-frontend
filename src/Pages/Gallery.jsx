@@ -32,7 +32,7 @@ const Gallery = () => {
 
   return (
     <>
-       <div className='ab-banner'>
+       <div className='ab-banner ab-banner5'>
  <div className='ab-banner-overlay'>
 <h3>Our Gallery</h3>
     </div>

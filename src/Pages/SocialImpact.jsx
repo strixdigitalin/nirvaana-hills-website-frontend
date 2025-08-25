@@ -11,7 +11,7 @@ import img9 from '../Assets/nhai.avif'
 function SocialImpact() {
   return (
    <>
-        <div className='ab-banner'>
+        <div className='ab-banner ab-banner6'>
  <div className='ab-banner-overlay'>
 <h3>Social Impact</h3>
     </div>
