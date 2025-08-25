@@ -13,6 +13,7 @@ import Teams from './Pages/Teams';
 import OurLegacy from './Pages/OurLegacy';
 import LocationPage from './Pages/LocationPage';
 import SocialImpact from './Pages/SocialImpact';
+import AutoModal from './Components/AutoModal';
 function App() {
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
 
         
       </Routes>
+      <AutoModal />
       <Footer />
     </>
   );

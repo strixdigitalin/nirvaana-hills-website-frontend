@@ -486,16 +486,16 @@ width: 30% ;
   background-position: top;
 }
 .Home-slider33{
-     background-image: url(./Assets/fort.jpg) !important;
+     background-image: url(./Assets/new\ arravli\ banner.jpg) !important;
    background-position: center;
 
 }
 .Home-slider44{
-   background-image: url(./Assets/banner\ golf.jpg) !important;
+   background-image: url(./Assets/new\ golf\ banner.jpg) !important;
   background-position: left;
 }
 .Home-slider55{
-   background-image: url(./Assets/clubhouse\ banner.jpg) !important;
+   background-image: url(./Assets/newclubhouse\ banner.jpg) !important;
   background-position: center; 
 }
 .Home-slider-overlay p{
@@ -1086,4 +1086,22 @@ font-family: "Belleza", sans-serif;
   .gallery-item.wide2 {
     grid-column: span 1;
   }
+}
+.auto-modal button{
+  width: 100%;
+  background-color: #354123;
+  color:white;
+
+  height: 50px;
+  border-radius: 10px;
+}
+.auto-modal input, .auto-modal textarea{
+  width: 100%;
+  border: 1px solid #354123;
+  background: none;
+  color: #354123;
+  padding-left: 15px;
+  border-radius: 10px;
+  height: 50px;
+
 }
