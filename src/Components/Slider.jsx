@@ -39,7 +39,7 @@ function Slider() {
         <SwiperSlide>
           <div className='Home-slider1 Home-slider12'>
             <div className='Home-slider-overlay'>
-              <h3>One of the  Biggest Farmland Community</h3>
+              <h3>200 Acres of Pure Living</h3>
               <p>Join one of the Biggest Farmland community of North India,<br/> designed for like-minded families who believe in premium lifestyle living.</p>
               <button>Read More</button>
             </div>

@@ -70,7 +70,7 @@ function Header() {
 
   return (
     <div className="newnav">
-      <header className="absolute top-[0px] max-w-[1392px] w-full mx-auto mt-[25px]">
+      <header className="absolute top-[0px] mx-auto mt-[25px] navbar-menu">
         <div className="flex items-center justify-between bg-white rounded-full py-[5px] pl-[40px] pr-[24px] shadow-md">
           {/* Logo */}
           <Link to="/">
@@ -82,7 +82,7 @@ function Header() {
           </Link>
 
           {/* Desktop Menu */}
-          <ul className="hidden lg:flex items-center gap-[25px] relative">
+          <ul className="hidden lg:flex items-center dektopmenu relative">
             {menu.map((e, i) => (
               <li
                 key={i}

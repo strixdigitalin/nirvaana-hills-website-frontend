@@ -67,7 +67,7 @@ const LifeAtNirvaana = () => {
     <>
    <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
-<img style={{height:'200px'}} src={whitelogo}  data-aos="fade-up"/>
+<img className="small-banner-logo" src={whitelogo}  data-aos="fade-up"/>
 <h3 className='Belleza'  data-aos="fade-up">Life At Nirvaana</h3>
 
     </div>
@@ -113,7 +113,7 @@ const LifeAtNirvaana = () => {
               transition={{ delay: 0.2, duration: 0.7 }}
               className="w-full md:w-1/2"
             >
-              <h3 className="text-4xl font-semibold mb-2">{item.title}</h3>
+              <h3 className="text-4xl font-semibold mb-2 Belleza">{item.title}</h3>
               <p className="text-xl text-gray-600 leading-relaxed">{item.description}</p>
             </motion.div>
           </motion.div>

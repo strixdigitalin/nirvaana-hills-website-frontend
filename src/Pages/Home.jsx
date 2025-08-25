@@ -105,7 +105,7 @@ It’s a legacy in the making</p>
 <div className='home-aboutus-overlay'>
 
 <h3 className='Belleza' data-aos="fade-up">NIRVAANA HILLS</h3>
-<p data-aos="fade-up">Tucked away amid rolling hills and lush greenery, this secluded 
+<p data-aos="fade-up"><i>Tucked away amid rolling hills and lush greenery, this secluded 
  
 
  200~farmland<br/> community offers more than just a piece of land.
@@ -124,7 +124,7 @@ reality,
   inviting you to breathe deeper, live gently, and grow freely. 
  <br/>
  <br/>
-For those who value stillness wrapped in sophistication and beauty rooted in <br/> meaning, this is the beginning of something truly personal.</p>
+For those who value stillness wrapped in sophistication and beauty rooted in <br/> meaning, this is the beginning of something truly personal.</i></p>
  <br/>
  <h4 data-aos="fade-up" className='Belleza'>BECAUSE A OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING</h4>
 
@@ -205,7 +205,9 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                     </div>
                 </section> */}
                 <section className='bg-[#46543B] pt-[25px] pb-[100px] lg:px-[100px] px-[20px]'>
-                    <h6 className="font-[500] text-center max-w-[504px] w-full mx-auto lg:pb-[80px] pb-[40px] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF] Belleza" data-aos="fade-up">LIFE AT NIRVAANA</h6>
+                <br/>
+                <br/>
+                    <h6 className="font-[500] text-center max-w-[504px] w-full mx-auto lg:pb-[80px] pb-[40px] font-cormorant  leading-[58px] capitalize text-[#FFFFFF] Belleza lifeatnirvaana-h6" data-aos="fade-up">LIFE AT NIRVAANA</h6>
                     <div className='grid grid-cols-1 gap-[32px]' data-aos="fade-up">
                         <div className='flex gap-[34px] lg:flex-row justify-center items-start flex-col'>
                             <div className="max-w-[350px] w-full rounded-[30px] relative">
@@ -268,7 +270,7 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                                 <img src={legacy} className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
                                     <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">The legacy</h6>
-                                                                        <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[15px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
+                                      <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[15px] text-[#FFFFFF] py-[8px] px-[20px] rounded-full'>View Details</button>
 
                                 </div>
                             </div>

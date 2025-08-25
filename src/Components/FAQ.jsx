@@ -82,7 +82,7 @@ function FAQ() {
 
   return (
    <div className="max-w-3xl mx-auto py-10 px-4 ">
-      <h2 className=" text-center mb-6 faq-heading" >Frequently Asked Questions</h2>
+      <h2 className=" text-center mb-6 faq-heading Belleza"  >Frequently Asked Questions</h2>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div

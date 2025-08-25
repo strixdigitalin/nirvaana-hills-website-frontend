@@ -16,7 +16,7 @@ function ContactUs() {
     <>
        <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
-<img style={{height:'200px'}} src={whitelogo} data-aos="fade-up"/>
+<img className="small-banner-logo" src={whitelogo} data-aos="fade-up"/>
 <h3 className='Belleza' data-aos="fade-up">Contact Us</h3>
 
     </div>
@@ -24,9 +24,13 @@ function ContactUs() {
     <div className='contact-div' data-aos="fade-up">
    <div className='contact-div-left'>
   <div className='circle-icon-info'>
+  <div>
+
     <div className='circle-icon'>
 <i class="bi bi-telephone-fill"></i>
     </div>
+  </div>
+
     <div>
     <h4>Call</h4>
     <p>(Office) 0124 4071184 </p>
@@ -34,9 +38,13 @@ function ContactUs() {
     </div>
    </div>
    <div className='circle-icon-info'>
+   <div>
+
     <div className='circle-icon'>
 <i class="bi bi-geo-alt-fill"></i>
     </div>
+   </div>
+
     <div>
     <h4>Address</h4>
     <p>812, Magnum Global Park, <br/>Golf Course Ext. Road,<br/>G Sector 58, Gurugram 122011
@@ -44,8 +52,11 @@ function ContactUs() {
     </div>
    </div>
     <div className='circle-icon-info'>
+   <div>
+
     <div className='circle-icon'>
 <i class="bi bi-envelope-fill"></i>
+    </div>
     </div>
     <div>
     <h4>Mail</h4>

@@ -22,7 +22,7 @@ function Features() {
    <>
          <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
-<img style={{height:'200px'}} src={whitelogo} data-aos="fade-up"/>
+<img className="small-banner-logo" src={whitelogo} data-aos="fade-up"/>
 <h3 className='Belleza' data-aos="fade-up">Features</h3>
 
     </div>
