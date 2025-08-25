@@ -1,5 +1,8 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const faqs = [
   {
     question: "What is Nirvaana Hills?",
@@ -65,6 +68,12 @@ const faqs = [
 
 
 function FAQ() {
+       useEffect(() => {
+          AOS.init({
+            duration: 1000, // animation duration in ms
+            once: true,     // whether animation should happen only once
+          });
+        }, []);
      const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -79,6 +88,7 @@ function FAQ() {
           <div
             key={index}
             className="border rounded-2xl shadow-sm overflow-hidden"
+            data-aos="fade-up"
           >
             <button
               onClick={() => toggleFAQ(index)}

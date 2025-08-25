@@ -34,7 +34,7 @@ function Galleryslider() {
   }, []);
   return (
     <>
-  <div className="relative w-full mx-auto h-[500px] overflow-hidden shadow-lg">
+  <div className="relative w-full mx-auto h-[700px] overflow-hidden shadow-lg">
       {images.map((img, index) => (
         <img
           key={index}

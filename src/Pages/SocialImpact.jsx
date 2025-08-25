@@ -1,19 +1,31 @@
-import React from 'react'
-import img2 from '../Assets/ist4.jpg'
-import img3 from '../Assets/ist7.jpg'
-import img4 from '../Assets/ist8.jpg'
-import img5 from '../Assets/ist2.jpg'
-import img6 from '../Assets/golf-facility-water.jpg'
-import img7 from '../Assets/near.jpg'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import img2 from '../Assets/Tree plantation & biodiversity.jpg'
+import img3 from '../Assets/ngo.jpg'
+import img4 from '../Assets/ist1.jpg'
+import img5 from '../Assets/ist14.jpg'
+import img6 from '../Assets/ist12.jpg'
+import img7 from '../Assets/impcat.jpg'
 import img8 from '../Assets/Solar Powered Community.jpg'
 import img9 from '../Assets/nhai.avif'
+import whitelogo from '../Assets/white logo.png'
+
 
 function SocialImpact() {
+          useEffect(() => {
+                          AOS.init({
+                            duration: 1000, // animation duration in ms
+                            once: true,     // whether animation should happen only once
+                          });
+                        }, []);
   return (
    <>
-        <div className='ab-banner ab-banner6'>
+         <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
-<h3>Social Impact</h3>
+<img style={{height:'200px'}} src={whitelogo} data-aos="fade-up"/>
+<h3 className='Belleza' data-aos="fade-up">Social Impact</h3>
+
     </div>
     </div>
 
@@ -92,15 +104,15 @@ generations will cherish.</p>
 
     <>
             <div className='whyus'>
-         <div className='whyus-card whyus-card2 f-tab1'>
+         <div className='whyus-card whyus-card2 f-tab2' data-aos="fade-up">
         <img src={img2}/>
         <div className='whyus-text'>
-        <h3>Where nature thrives</h3>
+        <h3>Tree Plantation & Biodiversity</h3>
         <p>With over a lakh trees planted, we are building a greener tomorrow and a sanctuary where nature thrives.</p>
         
         </div>
             </div>
-             <div className='whyus-card whyus-card2 f-tab2'>
+             <div className='whyus-card whyus-card2 f-tab4' data-aos="fade-up">
         <img src={img3}/>
         <div className='whyus-text'>
         <h3>NGO contributions</h3>
@@ -108,7 +120,7 @@ generations will cherish.</p>
         
         </div>
             </div>
-             <div className='whyus-card whyus-card2 f-tab3'>
+             <div className='whyus-card whyus-card2 f-tab7' data-aos="fade-up">
         <img src={img4}/>
         <div className='whyus-text'>
         <h3>Support for local Institutions</h3>
@@ -117,7 +129,7 @@ generations will cherish.</p>
         
         </div>
             </div>
-             <div className='whyus-card whyus-card2 f-tab4' >
+             <div className='whyus-card whyus-card2 f-tab4' data-aos="fade-up" >
         <img src={img5}/>
         <div className='whyus-text'>
         <h3>Employment opportunities</h3>
@@ -125,7 +137,7 @@ generations will cherish.</p>
         
         </div>
             </div>
-             <div className='whyus-card whyus-card2 f-tab6'>
+             <div className='whyus-card whyus-card2 f-tab7' data-aos="fade-up">
         <img src={img6}/>
         <div className='whyus-text'>
         <h3>Women empowerment</h3>
@@ -133,7 +145,7 @@ generations will cherish.</p>
         
         </div>
             </div>
-             <div className='whyus-card whyus-card2 f-tab7'>
+             <div className='whyus-card whyus-card2 f-tab2' data-aos="fade-up">
         <img src={img7}/>
         <div className='whyus-text'>
         <h3>Legacy of Impact</h3>

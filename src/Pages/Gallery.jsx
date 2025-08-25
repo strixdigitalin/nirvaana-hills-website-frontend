@@ -1,98 +1,53 @@
-import React, { useState } from "react";
+import React from "react";
+import img1 from "../Assets/real (1).jpeg";
+import img2 from "../Assets/real (1).png";
+import img3 from "../Assets/real (2).jpeg";
+import img4 from "../Assets/real (2).png";
+import img5 from "../Assets/real (3).jpeg";
+import img6 from "../Assets/real (3).png";
+import img7 from "../Assets/real (4).jpeg";
+import img8 from "../Assets/real (4).png";
+import img9 from "../Assets/real (5).jpeg";
+import img10 from "../Assets/real (5).png";
+import img11 from "../Assets/real (6).jpeg";
+import img12 from "../Assets/real (7).jpeg";
+import whitelogo from '../Assets/white logo.png'
+
+
 
 const images = [
-  "https://picsum.photos/id/1018/800/600",
-  "https://picsum.photos/id/1015/800/600",
-  "https://picsum.photos/id/1019/800/600",
-  "https://picsum.photos/id/1020/800/600",
-  "https://picsum.photos/id/1024/800/600",
-  "https://picsum.photos/id/1035/800/600",
+  { src: img1, className: "wide" },
+  { src: img2 },
+  { src: img3 },
+  { src: img4, className: "wide" },
+  { src: img5 },
+  { src: img6 },
+  { src: img7, className: "wide2" },
+  { src: img8 },
+  { src: img9 },
+  { src: img10, className: "wide" },
+  { src: img11 },
+  { src: img12 }
 ];
 
 const Gallery = () => {
-  const [selectedIndex, setSelectedIndex] = useState(null);
-
-  const openImage = (index) => {
-    setSelectedIndex(index);
-  };
-
-  const closeImage = () => {
-    setSelectedIndex(null);
-  };
-
-  const showNext = (e) => {
-    e.stopPropagation();
-    setSelectedIndex((prev) => (prev + 1) % images.length);
-  };
-
-  const showPrev = (e) => {
-    e.stopPropagation();
-    setSelectedIndex((prev) => (prev - 1 + images.length) % images.length);
-  };
-
   return (
-    <>
-       <div className='ab-banner ab-banner5'>
- <div className='ab-banner-overlay'>
-<h3>Our Gallery</h3>
-    </div>
-    </div>
-
-    <div className="max-w-7xl mx-auto px-4 py-10">
-    
-
-      {/* Grid of cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {images.map((src, index) => (
-          <div
-            key={index}
-            className="overflow-hidden rounded-2xl shadow-md cursor-pointer transform transition duration-300 hover:scale-105 hover:shadow-xl"
-            onClick={() => openImage(index)}
-          >
-            <img
-              src={src}
-              alt={`Gallery ${index}`}
-              className="w-full h-64 object-cover"
-            />
-          </div>
-        ))}
+  <>
+   <div className='ab-banner ab-banner2'>
+   <div className='ab-banner-overlay'>
+  <img style={{height:'200px'}} src={whitelogo}/>
+  <h3 className='Belleza'>Gallery</h3>
+  
       </div>
-
-      {/* Lightbox */}
-      {selectedIndex !== null && (
-        <div
-          className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50"
-          onClick={closeImage}
-        >
-          <button
-            onClick={showPrev}
-            className="absolute left-6 text-white text-4xl font-bold"
-          >
-            ‹
-          </button>
-          <img
-            src={images[selectedIndex]}
-            alt="Selected"
-            className="max-h-[90%] max-w-[90%] rounded-xl shadow-lg"
-          />
-          <button
-            onClick={showNext}
-            className="absolute right-6 text-white text-4xl font-bold"
-          >
-            ›
-          </button>
-          <button
-            onClick={closeImage}
-            className="absolute top-6 right-6 text-white text-3xl font-bold"
-          >
-            ✕
-          </button>
+      </div>
+      <div className="gallery">
+      {images.map((img, i) => (
+        <div key={i} className={`gallery-item ${img.className || ""}`}>
+          <img src={img.src} alt={`gallery-${i}`} />
         </div>
-      )}
+      ))}
     </div>
-
-    </>
-
+  </>
   );
 };
 

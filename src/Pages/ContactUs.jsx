@@ -1,15 +1,27 @@
 
-import React from 'react'
+
+import whitelogo from '../Assets/white logo.png'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function ContactUs() {
+     useEffect(() => {
+                            AOS.init({
+                              duration: 1000, // animation duration in ms
+                              once: true,     // whether animation should happen only once
+                            });
+                          }, []);
   return (
     <>
-        <div className='ab-banner ab-banner8'>
+       <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
-<h3>Contact Us</h3>
+<img style={{height:'200px'}} src={whitelogo} data-aos="fade-up"/>
+<h3 className='Belleza' data-aos="fade-up">Contact Us</h3>
+
     </div>
     </div>
-    <div className='contact-div'>
+    <div className='contact-div' data-aos="fade-up">
    <div className='contact-div-left'>
   <div className='circle-icon-info'>
     <div className='circle-icon'>
@@ -17,7 +29,8 @@ function ContactUs() {
     </div>
     <div>
     <h4>Call</h4>
-    <p>+91-124-4567890</p>
+    <p>(Office) 0124 4071184 </p>
+    <p>(Sales) +91 84800-64800 </p>
     </div>
    </div>
    <div className='circle-icon-info'>
@@ -26,8 +39,7 @@ function ContactUs() {
     </div>
     <div>
     <h4>Address</h4>
-    <p>812, Magnum Global Park<br/>
- Sector 58, Gurgaon – 122102
+    <p>812, Magnum Global Park, <br/>Golf Course Ext. Road,<br/>G Sector 58, Gurugram 122011
 </p>
     </div>
    </div>
@@ -37,7 +49,7 @@ function ContactUs() {
     </div>
     <div>
     <h4>Mail</h4>
-    <p>hello@nirvaanahills.com</p>
+    <p>info@seadrealty.com</p>
     </div>
    </div>
      <div className='circle-icon-info'>

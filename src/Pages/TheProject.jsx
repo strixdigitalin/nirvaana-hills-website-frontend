@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import img from '../Assets/Nirvaana Hills logo.png'
 import FAQ from '../Components/FAQ'
 import img2 from '../Assets/nested.jpg'
@@ -9,15 +11,22 @@ import img6 from '../Assets/848.jpg'
 import img7 from '../Assets/near.jpg'
 import img8 from '../Assets/Solar Powered Community.jpg'
 import img9 from '../Assets/33ft road.jpg'
-
+import newlogo from '../Assets/meaning logo.png'
 import whitelogo from '../Assets/white logo.png'
 function TheProject() {
+         useEffect(() => {
+        AOS.init({
+          duration: 1000, // animation duration in ms
+          once: true,     // whether animation should happen only once
+        });
+      }, []);
   return (
    <>
     <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
-{/* <h3>Nirvaana Hills</h3> */}
-<img style={{height:'200px'}} src={whitelogo}/>
+<img data-aos="fade-up" style={{height:'200px'}} src={whitelogo}/>
+<h3 data-aos="fade-up" className='Belleza'>The Project</h3>
+
     </div>
     </div>
     {/* <div className='about-div'>
@@ -39,10 +48,10 @@ BECAUSE OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING
     </div>
     </div> */}
     <div className='home-aboutus'>
-<div className='home-aboutus-overlay'>
+<div className='home-aboutus-overlay UNFOLDS'>
 
-<h3 className='Garamond'>OUR STORY UNFOLDS</h3>
-<p>Tucked away amid rolling hills and lush greenery, this secluded 
+<h3 className='Belleza'  data-aos="fade-up">OUR STORY UNFOLDS</h3>
+<p data-aos="fade-up">Tucked away amid rolling hills and lush greenery, this secluded 
  
 
  200~farmland<br/> community offers more than just a piece of land.
@@ -63,23 +72,26 @@ reality,
  <br/>
 For those who value stillness wrapped in sophistication and beauty rooted in <br/> meaning, this is the beginning of something truly personal.</p>
  <br/>
- <h4>BECAUSE OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING</h4>
+ <h4 data-aos="fade-up" className='Belleza'>BECAUSE A OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING</h4>
 
 </div>
 </div>
 
     <div className='meaning'>
-    <h3 className='Belleza'>WHAT DOES NIRVAANA MEAN?</h3>
-    <p>Derived from ancient Sanskrit, “Nirvaana” means liberation—freedom from the cycle of noise, stress, and daily entanglements.
+    <img data-aos="fade-up" src={newlogo}/>
+    <h3 className='Belleza' data-aos="fade-up">NIRVAANA ~ निर्वाणा</h3>
+    <h4 className='Belleza' data-aos="fade-up">(nir-vaah-nuh)</h4>
+    <p data-aos="fade-up">Derived from ancient Sanskrit, “Nirvaana” means liberation—freedom from the cycle of noise, stress, and daily entanglements.
 It is the ultimate state of bliss and balance. In Buddhism, it signifies a soul’s release into peace, purpose, and presence.</p>
-    <h3 >NIRVAANA ~ निर्वाणा </h3>
+   <p>Nirvaana Hills isn’t just a name, it’s a feeling. A whisper of calm in a chaotic world. A reminder that peace still exists, waiting to be embraced.</p>
+    <h3 > </h3>
 
     </div>
     <div className='whyus-heading'>
-<h3 className='Belleza'>WHY CHOOSE NIRVAANA HILLS?</h3>
+<h3 data-aos="fade-up" className='Belleza'>WHY CHOOSE NIRVAANA HILLS?</h3>
     </div>
     <div className='whyus'>
- <div className='whyus-card'>
+ <div className='whyus-card' data-aos="fade-up">
 <img src={img2}/>
 <div className='whyus-text'>
 <h3>Nestled in Between the Aravallis</h3>
@@ -87,7 +99,7 @@ It is the ultimate state of bliss and balance. In Buddhism, it signifies a soul�
 
 </div>
     </div>
-     <div className='whyus-card'>
+     <div className='whyus-card' data-aos="fade-up">
 <img src={img3}/>
 <div className='whyus-text'>
 <h3>Seamless Entry to Ownership</h3>
@@ -95,7 +107,7 @@ It is the ultimate state of bliss and balance. In Buddhism, it signifies a soul�
 
 </div>
     </div>
-     <div className='whyus-card'>
+     <div className='whyus-card' data-aos="fade-up">
 <img src={img4}/>
 <div className='whyus-text'>
 <h3>200~ Acre Community</h3>
@@ -104,7 +116,7 @@ A single, 200~ acre integrated community, not scattered parcels</p>
 
 </div>
     </div>
-     <div className='whyus-card'>
+     <div className='whyus-card' data-aos="fade-up">
 <img src={img5}/>
 <div className='whyus-text'>
 <h3>Breathing Life with 1,00,000 Trees</h3>
@@ -112,7 +124,7 @@ A single, 200~ acre integrated community, not scattered parcels</p>
 
 </div>
     </div>
-     <div className='whyus-card'>
+     <div className='whyus-card' data-aos="fade-up">
 <img src={img6}/>
 <div className='whyus-text'>
 <h3>Golf Course & Clubhouse</h3>
@@ -120,7 +132,7 @@ A single, 200~ acre integrated community, not scattered parcels</p>
 
 </div>
     </div>
-     <div className='whyus-card'>
+     <div className='whyus-card' data-aos="fade-up">
 <img src={img7}/>
 <div className='whyus-text'>
 <h3>Easy Delhi-NCR Access</h3>
@@ -128,7 +140,7 @@ A single, 200~ acre integrated community, not scattered parcels</p>
 
 </div>
     </div>
-      <div className='whyus-card'>
+      <div className='whyus-card' data-aos="fade-up">
 <img src={img8}/>
 <div className='whyus-text'>
 <h3>Solar Powered Community</h3>
@@ -136,7 +148,7 @@ A single, 200~ acre integrated community, not scattered parcels</p>
 
 </div>
     </div>
-      <div className='whyus-card'>
+      <div className='whyus-card' data-aos="fade-up">
 <img src={img9}/>
 <div className='whyus-text'>
 <h3>33 ft. Wide Internal Roads</h3>

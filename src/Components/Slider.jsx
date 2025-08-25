@@ -39,7 +39,7 @@ function Slider() {
         <SwiperSlide>
           <div className='Home-slider1 Home-slider12'>
             <div className='Home-slider-overlay'>
-              <h3>One Of The  Biggest Farmland Community</h3>
+              <h3>One of the  Biggest Farmland Community</h3>
               <p>Join one of the Biggest Farmland community of North India,<br/> designed for like-minded families who believe in premium lifestyle living.</p>
               <button>Read More</button>
             </div>
@@ -50,7 +50,7 @@ function Slider() {
           <div className='Home-slider1 Home-slider33'>
             <div className='Home-slider-overlay'>
               <h3>At the Foot of the Aravallis</h3>
-              <p>Wake up to the breathtaking views of the majestic Aravalli Hills, blending natural beauty with peaceful living.</p>
+              <p>Wake up to the breathtaking views of the majestic Aravalli Hills, <br/> blending natural beauty with peaceful living.</p>
               <button>Read More</button>
             </div>
           </div>
@@ -60,7 +60,7 @@ function Slider() {
           <div className='Home-slider1 Home-slider44'>
             <div className='Home-slider-overlay'>
               <h3>Living by the Golf Course</h3>
-              <p>Enjoy the luxury of a world-class golf course at your doorstep, crafted for leisure and lifestyle.</p>
+              <p>Enjoy the luxury of a world-class golf course at your doorstep,<br/> crafted for leisure and lifestyle.</p>
               <button>Read More</button>
             </div>
           </div>
@@ -70,7 +70,7 @@ function Slider() {
           <div className='Home-slider1 Home-slider55'>
             <div className='Home-slider-overlay'>
               <h3>The Clubhouse at Nirvaana</h3>
-              <p>Celebrate life at our exclusive clubhouse with modern amenities, recreation, and premium gatherings.</p>
+              <p>Celebrate life at our exclusive clubhouse with modern amenities,<br/> recreation, and premium gatherings.</p>
               <button>Read More</button>
             </div>
           </div>

@@ -1,18 +1,30 @@
-import React from 'react'
-import map from '../Assets/location map.png'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import map from '../Assets/map for web use.pdf (1).png'
+import whitelogo from '../Assets/white logo.png'
+
 function LocationPage() {
+    useEffect(() => {
+            AOS.init({
+              duration: 1000, // animation duration in ms
+              once: true,     // whether animation should happen only once
+            });
+          }, []);
   return (
     <>
-     <div className='ab-banner ab-banner8'>
+       <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
-<h3>Location</h3>
+<img style={{height:'200px'}} src={whitelogo}  data-aos="fade-up"/>
+<h3 className='Belleza'  data-aos="fade-up">Our Location</h3>
+
     </div>
     </div>
     <div className='ab-banner-img'>
     {/* <img src={img}/> */}
-    <img src={map}/>
+    <img src={map} data-aos="fade-up"/>
     </div>
-    <div className='location-text'>
+    {/* <div className='location-text'>
    <div className='location-text-div'>
    <h3>Location Map </h3>
    <ul>
@@ -55,7 +67,7 @@ of Haryana (CUH)*   15 km I 15 mins</li>
    </ul>
 
     </div>
-    </div>
+    </div> */}
     
     </>
   )

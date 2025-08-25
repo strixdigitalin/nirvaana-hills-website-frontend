@@ -31,15 +31,16 @@ function Footer() {
                         <div className="grid grid-cols-2 gap-[20px] md:gap-[30px]">
                             <div className='flex flex-col gap-[12px] md:gap-[16px]'>
                                 <Link to="/" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Home</Link>
-                                <Link to="/" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>About Us</Link>
-                                <Link to="/" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Our Team</Link>
-                                <Link to="/" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Services</Link>
+                                <Link to="/theproject" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>The Project</Link>
+                                <Link to="/features" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Features</Link>
+                                <Link to="/locationpage" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Location</Link>
                             </div>
                             <div className='flex flex-col gap-[12px] md:gap-[16px]'>
-                                <Link to="/" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Process</Link>
-                                <Link to="/" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Testimonials</Link>
-                                <Link to="/" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Projects</Link>
-                                <Link to="/" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Contact Us</Link>
+                                <Link to="/LifeAtNirvaana" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Life at Nirvaana</Link>
+                                <Link to="/gallery" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Gallery</Link>
+                                <Link to="/socialimpact" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Social impacts</Link>
+                                <Link to="/ourlegacy" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Our Legacy</Link>
+                                <Link to="/contact" className='font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]'>Contact Us</Link>
                             </div>
                         </div>
                     </div>
@@ -56,8 +57,8 @@ function Footer() {
                         <div className='grid grid-cols-1 gap-[16px] md:gap-[20px]'>
                             <div className="flex items-start gap-[14px]">
                                 <img src="/assets/footer/location.svg" alt="location" />
-                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">Nirvaana Hills, Naurangabas Rajputana, Near Akoda,
-Mahendragarh, Haryana - 127310</p>
+                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">812, Magnum Global Park, Golf Course Ext. Road,
+Sector 58, Gurugram 122011</p>
                             </div>
                             <div className="flex items-center gap-[14px]">
                                 <img src="/assets/footer/call.svg" alt="call" />
@@ -67,12 +68,7 @@ Mahendragarh, Haryana - 127310</p>
                                 <img src="/assets/footer/mail.svg" alt="mail" />
                                 <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">info@seadrealty.com </p>
                             </div>
-                            <div className="flex items-start gap-[14px]">
-                                <img src="/assets/footer/clock.svg" alt="clock" />
-                                <p className="font-[400] max-w-[194px] w-full font-inter text-[16px] leading-[20px] text-[#F9F7EF]">
-                                    Our Working Hours Mon - Sat: 8 am - 6 pm
-                                </p>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>

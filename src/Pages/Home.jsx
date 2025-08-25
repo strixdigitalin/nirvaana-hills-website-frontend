@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { motion } from "framer-motion";
 import OurSlider from '../Components/slider/OurSlider'
 import user from '../Assets/image 31.png'
@@ -12,7 +12,25 @@ import img6 from '../Assets/ist5.jpg'
 import img8 from '../Assets/ist8.jpg'
 import bgVideo from "../Assets/new.mp4";
 import newlogo from '../Assets/white logo.png'
+
+import belonging from '../Assets/ist5.jpg'
+import grow from '../Assets/brother-sister-playing-with-kite-plane-field-sunset.jpg'
+import Sustainability from '../Assets/hispanic-mother-daughter-harvesting-vegetables-together-garden.jpg'
+import yoga from '../Assets/ist3.jpg'
+import Work from '../Assets/belongig.jpg'
+import legacy from '../Assets/LAN THE LEGASY.jpg'
+
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function Home() {
+     useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      once: true,     // whether animation should happen only once
+    });
+  }, []);
     return (
         <>
             <div className='bg-[#EEF2E6]'>
@@ -43,15 +61,15 @@ function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
-      <img className='banner-logo' src={newlogo}/>
+      <img data-aos="fade-up" className='banner-logo' src={newlogo}/>
 
         {/* <h1 className="font-[400] text-[84px] leading-[100px] text-[#FFFFFF] pb-[25px] main-h1">
           Welcome To Nirvaana Hills
         </h1> */}
-        <p className="max-w-[720px] w-full mx-auto font-Montserrat font-[400] text-[16px] leading-[27px] text-[#FFFFFF] pb-[26px] lg:pb-[54px] py-[18px]">
+        <p data-aos="fade-up" className="max-w-[720px] w-full mx-auto font-Montserrat font-[400] text-[16px] leading-[27px] text-[#FFFFFF] pb-[26px] lg:pb-[54px] py-[18px]">
           Set within the heart of the Aravallis, Nirvaana Hills is a 200~acre Farmland Community in North India, unfolding across serene and untouched land,  where forests blend into hills, and every corner holds quiet promise.
         </p>
-        <button className="banner-btn bg-[#6F7849] border border-[#6F7849] transition-all duration-300 hover:bg-[#FFFFFF] hover:text-[#6F7849]  py-[1px] px-[35px] font-[400] font-bricolage text-[18px] leading-[21px] text-[#FFFFFF]">
+        <button data-aos="fade-up" className="banner-btn bg-[#6F7849] border border-[#6F7849] transition-all duration-300 hover:bg-[#FFFFFF] hover:text-[#6F7849]  py-[1px] px-[35px] font-[400] font-bricolage text-[18px] leading-[21px] text-[#FFFFFF]">
           Get In Touch
         </button>
       </motion.div>
@@ -83,11 +101,11 @@ It’s a legacy in the making</p>
                         </div>
                     </div>
                 </section> */}
-  <div className='home-aboutus'>
+  <div className='home-aboutus home-aboutus2'>
 <div className='home-aboutus-overlay'>
 
-<h3 className='Garamond'>ABOUT NIRVAANA</h3>
-<p>Tucked away amid rolling hills and lush greenery, this secluded 
+<h3 className='Belleza' data-aos="fade-up">NIRVAANA HILLS</h3>
+<p data-aos="fade-up">Tucked away amid rolling hills and lush greenery, this secluded 
  
 
  200~farmland<br/> community offers more than just a piece of land.
@@ -108,44 +126,47 @@ reality,
  <br/>
 For those who value stillness wrapped in sophistication and beauty rooted in <br/> meaning, this is the beginning of something truly personal.</p>
  <br/>
- <h4>BECAUSE OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING</h4>
+ <h4 data-aos="fade-up" className='Belleza'>BECAUSE A OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING</h4>
 
 </div>
 </div>
 <div className='newfeatures'>
+<div className='newfeatures-overlaty'>
+
 <div className='newfeatures-heading'>
-<h3 className='Belleza'>OUR FEATURES</h3>
+<h3 className='Belleza' data-aos="fade-up">OUR FEATURES</h3>
 </div>
-<div className='newfeatures-cards'>
+<div className='newfeatures-cards' data-aos="fade-up">
 <div className='newfeatures-card'>
 <div className='newfeatures-card-overlay'>
 
 <h3>Living thoughtfully designed</h3>
-<p>Designed for those who seek harmony with nature and effortless living, Nirvaana Hills blends European-inspired charm with nature-led design. Its layout balances openness, sustainability, and serenity, where every path, view, and detail is designed with purpose and care.</p>
+<p>For those seeking harmony with nature and ease of living, Nirvaana Hills blends European charm with nature-led design. Its layout balances openness, sustainability, and serenity, with every detail crafted with care.</p>
 </div>
 </div>
 <div className='newfeatures-card newfeatures-card2'>
 <div className='newfeatures-card-overlay'>
 
 <h3>Your everyday retreat</h3>
-<p>Here’s where everyday life feels a little brighter. A place buzzing with energy, laughter, and the simple joys of being together. Whether it’s friendly matches, lazy afternoons, or catching up with neighbours, there’s always something happening and always a reason to stay a little longer.</p>
+<p>Everyday life here feels brighter. A place filled with energy, laughter, and simple joys. From friendly games to relaxed afternoons, there’s always a reason to stay a little longer.</p>
 </div>
 </div>
 <div className='newfeatures-card newfeatures-card3'>
 <div className='newfeatures-card-overlay'>
 
 <h3>Where nature nurtures community</h3>
-<p>Nirvaana Hills is where the beauty of the hills meets the warmth of community. It’s where neighbours become friends and every corner invites togetherness, in shared adventures and moments that bring you closer to each other. Here, life flows easily, surrounded by nature and experiences to treasure.</p>
+<p>Here, hills meet the warmth of community. Neighbours turn into friends, and every corner invites togetherness. Life flows easily, surrounded by nature and moments to cherish.</p>
 </div>
 </div>
 <div className='newfeatures-card newfeatures-card4'>
 <div className='newfeatures-card-overlay'>
 
 <h3>The finer details</h3>
-<p>Here, every farmhouse opens to vast greens & complete privacy. From inviting pathways to welcoming entrances, nature and comfort meet in perfect balance. Wide open spaces surround each home, offering room to breathe and unwind. Every window captures a view worth pausing for.</p>
+<p>Each farmhouse opens to greenery and privacy. From inviting paths to welcoming entrances, comfort meets nature. Wide spaces surround every home, with views worth pausing for.</p>
 </div>
 </div>
 
+</div>
 </div>
 
 </div>
@@ -184,12 +205,12 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                     </div>
                 </section> */}
                 <section className='bg-[#46543B] pt-[25px] pb-[100px] lg:px-[100px] px-[20px]'>
-                    <h6 className="font-[500] text-center max-w-[504px] w-full mx-auto lg:pb-[80px] pb-[40px] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF] Belleza">LIFE AT NIRVAANA</h6>
-                    <div className='grid grid-cols-1 gap-[32px]'>
+                    <h6 className="font-[500] text-center max-w-[504px] w-full mx-auto lg:pb-[80px] pb-[40px] font-cormorant text-[48px] leading-[58px] capitalize text-[#FFFFFF] Belleza" data-aos="fade-up">LIFE AT NIRVAANA</h6>
+                    <div className='grid grid-cols-1 gap-[32px]' data-aos="fade-up">
                         <div className='flex gap-[34px] lg:flex-row justify-center items-start flex-col'>
                             <div className="max-w-[350px] w-full rounded-[30px] relative">
                                 <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
-                                <img src="/assets/home/img3.jpg" className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
+                                <img src={belonging} className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
                                     <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Belonging</h6>
                                                                       <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
@@ -198,7 +219,7 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                             </div>
                              <div className="max-w-[350px] w-full rounded-[30px] relative">
                                 <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
-                                <img src={img2} className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
+                                <img src={grow} className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
                                     <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Grow wild, grow free</h6>
                                                                         <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
@@ -207,7 +228,7 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                             </div>
                             <div className="w-full lg:max-w-[500px] rounded-[30px] relative">
                                 <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
-                                <img src={img3} className='w-full rounded-[30px] h-[250px] object-cover' alt="" />
+                                <img src={Sustainability} className='w-full rounded-[30px] h-[250px] object-cover' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
                                     <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Sustainability </h6>
                                                                         <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
@@ -218,7 +239,7 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                         <div className="flex flex-col lg:flex-row items-start justify-center gap-[20px] lg:gap-[34px]">
                             <div className="w-full lg:max-w-[400px] rounded-[30px] relative">
                                 <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
-                                <img src={img4} className='w-full rounded-[30px] h-[250px] object-cover' alt="" />
+                                <img src={yoga} className='w-full rounded-[30px] h-[250px] object-cover' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
                                     <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Wellness</h6>
                                                                         <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
@@ -227,7 +248,7 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                             </div>
                             <div className="w-full lg:max-w-[250px] rounded-[30px] relative">
                                 <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
-                                <img src={img6} className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
+                                <img src={Work} className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
                                     <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">Work Life balance</h6>
                                     <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[22px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>
@@ -244,7 +265,7 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                             </div>
                                <div className="w-full lg:max-w-[200px] rounded-[30px] relative">
                                 <div className="absolute inset-0 bg-[#00000033] rounded-[30px]"></div>
-                                <img src={img8} className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
+                                <img src={legacy} className='w-full h-[250px] object-cover rounded-[30px]' alt="" />
                                 <div className='absolute bottom-0 p-[40px] left-0 w-full'>
                                     <h6 className="font-[500] font-cormorant text-[25px] pb-[15px] leading-[44px] text-[#FFFFFF]">The legacy</h6>
                                                                         <button className='font-[400] transition-all duration-300 hover:bg-[#6F7849] border border-[#FFFFFF] h-[40px] font-bricolage text-[12px] leading-[15px] text-[#FFFFFF] py-[8px] px-[35px] rounded-full'>View Details</button>

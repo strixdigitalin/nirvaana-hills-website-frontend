@@ -31,7 +31,7 @@ const menu = [
   },
   {
     label: "Location",
-    mLink: "/location",
+    mLink: "/locationpage",
   },
   {
     label: "Life at Nirvaana",
