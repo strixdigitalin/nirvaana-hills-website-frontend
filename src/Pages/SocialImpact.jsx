@@ -24,7 +24,7 @@ function SocialImpact() {
          <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
 <img className="small-banner-logo" src={whitelogo} data-aos="fade-up"/>
-<h3 className='Belleza' data-aos="fade-up">Social Impact</h3>
+<h3 className='Belleza' data-aos="fade-up">SOCIAL IMPACT</h3>
 
     </div>
     </div>

@@ -25,7 +25,7 @@ function TheProject() {
     <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
 <img data-aos="fade-up" className="small-banner-logo" src={whitelogo}/>
-<h3 data-aos="fade-up" className='Belleza'>The Project</h3>
+<h3 data-aos="fade-up" className='Belleza'>THE PROJECT</h3>
 
     </div>
     </div>
@@ -47,8 +47,8 @@ BECAUSE OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING
 <img src={img}/>
     </div>
     </div> */}
-    <div className='home-aboutus'>
-<div className='home-aboutus-overlay UNFOLDS'>
+    <div className='home-aboutus UNFOLDS'>
+<div className='home-aboutus-overlay '>
 
 <h3 className='Belleza'  data-aos="fade-up">OUR STORY UNFOLDS</h3>
 <p data-aos="fade-up"><i>Tucked away amid rolling hills and lush greenery, this secluded 
@@ -72,7 +72,7 @@ reality,
  <br/>
 For those who value stillness wrapped in sophistication and beauty rooted in <br/> meaning, this is the beginning of something truly personal.</i></p>
  <br/>
- <h4 data-aos="fade-up" className='Belleza'>BECAUSE A OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING</h4>
+ <h4 data-aos="fade-up" className='Belleza'>BECAUSE  OWNING A LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING</h4>
 
 </div>
 </div>

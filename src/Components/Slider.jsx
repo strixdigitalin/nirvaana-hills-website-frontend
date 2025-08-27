@@ -60,7 +60,7 @@ function Slider() {
           <div className='Home-slider1 Home-slider44'>
             <div className='Home-slider-overlay'>
               <h3>Living by the Golf Course</h3>
-              <p>Enjoy the luxury of a world-class golf course at your doorstep,<br/> crafted for leisure and lifestyle.</p>
+              <p>Wake up to the greens of a golf course right at your doorstep,<br/> where leisure blends with lifestyle.</p>
               <button>Read More</button>
             </div>
           </div>

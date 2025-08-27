@@ -13,45 +13,45 @@ import whitelogo from '../Assets/white logo.png'
 
 const timelineData = [
   {
-    title: "Belonging",
+    title: "Nirvaana, where living feels like belonging",
     description:
-      "A place where neighbors become friends and families grow together. At Nirvaana Hills, you don’t just own a plot — you become part of a community rooted in trust and warmth.",
+      "From serene hilltop views to the gentle embrace of endless green, each day finds its quiet rhythm.The breeze carries the scent of earth, and the mind slows gently to nature’s rhythm. Morning tea finds its way under dappled light filtering through the trees. Life here moves at its own pace - unhurried, grounded, and deeply connected to the land. A place to think, breathe freely, and live meaningfully",
     image: belonging,
   },
   {
-    title: "Grow Wild, Grow Free",
+    title: "Grow wild, Grow Free",
     description:
-      "Let your children climb trees, run through meadows, and learn from the land. Here, freedom is natural — not limited by walls or traffic.",
+      "This a place where childhood is shaped by nature, not screens. Where laughter rises from shared stories, not digital noise. Where open skies, muddy feet, and tree climbing afternoons awaken joy and curiosity. Surrounded by green spaces and simple pleasures, children are free to explore, imagine, and grow. It’s the kind of environment that nurtures imagination, calm, and carefree play, just the way childhood should be.",
     image: grow,
   },
   {
-    title: "Sustainability",
+    title: "Sustainability, crafted for everyday living",
     description:
-      "Every plot nurtures the future with 101 trees. With solar lights, water management, and eco-friendly design, Nirvaana Hills is built to give back more than it takes.",
+      "Rooted in sustainability and slow living, every detail is carefully designed, for you and for the planet. Fresh & seasonal produce grows close to home, bringing farm-to-fork living to your kitchen. Solar lighting along pathways adds a gentle glow after dusk, lighting the way home with nature’s touch. The open-air clubhouse blends comfort with climate-conscious design, creating spaces that are easy, open and in tune with nature. Natural & safe materials are chosen for their durability, reflecting a way of life in harmony with the land.",
     image: Sustainability,
   },
   {
-    title: "Wellness",
+    title: "Where wellness isn’t an escape",
     description:
-      "From yoga pavilions to walking trails, meditation spaces to fresh organic produce — wellness isn’t an activity here, it’s a way of life.",
+      "It’s how you live Wellness here is not something you seek on a weekend. It’s part of everyday life. Mornings begin with soft light and slow stretches. Clean air fills your lungs. Fresh, homegrown food fills your plate. The pace is calm, the spaces are open, and balance finds its way into how you move, feel, and live. And when well-being becomes part of your everyday life, clarity, energy, and a quiet sense of fulfilment naturally follow.",
     image: yoga,
   },
   {
-    title: "Work–Life Balance",
+    title: "Find Your New Work-Life Balance",
     description:
-      "With high-speed internet, scenic views, and peaceful surroundings, work feels lighter, and life feels fuller. Escape the chaos without losing connectivity.",
+      "Imagine starting your mornings with the soft mist rolling over green hills, and your workspace framed by endless open skies. At Nirvaana Hills, working remotely transforms into an experience where productivity meets peace, and ambition finds its rhythm in nature’s quiet pulse. Here, high-speed connectivity keeps you plugged in when you need it, while your surroundings inspire you to slow down, breathe deeper, and think clearer. Reconnect with your goals, with your passions, and most importantly, with yourself — in a place designed to nourish your spirit as much as your ambitions.",
     image: Work,
   },
   {
-    title: "Restart Life Together",
+    title: "Restart Life, Together",
     description:
-      "Many families choose Nirvaana Hills to build a legacy home, where multiple generations live side by side yet with their own space.",
+      "Imagine waking up to sun-drenched mornings, surrounded by hills, forests, and the laughter of your closest friends. A place where weekends turn into lifelong memories, and every sunset is shared over a cup of chai or a bonfire. What if that dream of owning a farmhouse wasn’t just yours alone? What if it became a shared reality, with the people who’ve always felt like home? At Nirvaana Hills, the life you’ve always imagined is now within reach. Pool in. Invest together. Build a space that reflects your bond, your rhythm, your vision of escape.",
     image: img6,
   },
   {
-    title: "The Legacy",
+    title: "A legacy that lives on, nurtured over time",
     description:
-      "Nirvaana Hills is more than land — it’s a legacy for the generations that follow. Trees that grow with your children, memories that last beyond you, and a home that stands for something greater.",
+      "Some spaces feel like they have always meant to be part of your family’s story. Spaces where stories are shared under the same trees, and values grow stronger with each passing day, rooted in love and togetherness. Built for quiet moments and lasting memories, this is where one generation finds joy, and the next finds roots. A legacy nurtured over time, lovingly passed from one generation to the next. A place to live well today, and leave something meaningful for tomorrow. It’s a place where memories grow into a lasting legacy.",
     image: legacy,
   },
 ];
@@ -68,7 +68,7 @@ const LifeAtNirvaana = () => {
    <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
 <img className="small-banner-logo" src={whitelogo}  data-aos="fade-up"/>
-<h3 className='Belleza'  data-aos="fade-up">Life At Nirvaana</h3>
+<h3 className='Belleza'  data-aos="fade-up">LIFE AT NIRVAANA</h3>
 
     </div>
     </div>
@@ -113,8 +113,8 @@ const LifeAtNirvaana = () => {
               transition={{ delay: 0.2, duration: 0.7 }}
               className="w-full md:w-1/2"
             >
-              <h3 className="text-4xl font-semibold mb-2 Belleza">{item.title}</h3>
-              <p className="text-xl text-gray-600 leading-relaxed">{item.description}</p>
+              <h3 className="text-3xl font-semibold mb-2 Belleza">{item.title}</h3>
+              <p className="text-1xl text-gray-600 leading-relaxed">{item.description}</p>
             </motion.div>
           </motion.div>
         ))}

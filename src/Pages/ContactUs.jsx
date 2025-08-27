@@ -4,6 +4,7 @@ import whitelogo from '../Assets/white logo.png'
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 
 function ContactUs() {
      useEffect(() => {
@@ -17,7 +18,7 @@ function ContactUs() {
        <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
 <img className="small-banner-logo" src={whitelogo} data-aos="fade-up"/>
-<h3 className='Belleza' data-aos="fade-up">Contact Us</h3>
+<h3 className='Belleza' data-aos="fade-up">CONTACT US</h3>
 
     </div>
     </div>
@@ -68,10 +69,23 @@ function ContactUs() {
     <div>
     <h4>Social Media</h4>
     <div className='social-icons'>
-      <i class="bi bi-instagram"></i>
-      <i class="bi bi-linkedin"></i>
-      <i class="bi bi-facebook"></i>
-      <i class="bi bi-twitter"></i>
+      <Link to="https://www.facebook.com/sead.realty">
+                                     <i class="bi bi-facebook"></i>
+                                 </Link>
+                                 <Link to="https://www.instagram.com/nirvaanahills/">
+              <i class="bi bi-instagram"></i>
+                                 </Link>
+                                   <Link to="https://www.youtube.com/@NirvaanaHills">
+                                    <i class="bi bi-youtube"></i>
+                                 </Link>
+                                
+                                   <Link to="https://share.google/kHKxzAZCUMEsIIDJL">
+                                   <i class="bi bi-google"></i>
+                                 </Link>
+     
+                                   <Link to="https://www.linkedin.com/company/sead-realty/">
+                                  <i class="bi bi-linkedin"></i>
+                                 </Link>
     </div>
     </div>
    </div>

@@ -5,25 +5,35 @@ import logo from '../../Assets/white logo.png'
 function Footer() {
     return (
         <>
-            <div className='bg-[#46543B] lg:px-[120px] md:px-[60px] px-[20px] lg:pt-[80px] md:pt-[60px] pt-[40px]'>
+            <div className='bg-[#46543B] lg:px-[120px] md:px-[60px] px-[20px] lg:pt-[80px] md:pt-[60px] pt-[40px] footer-background'>
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-[70px] md:gap-[40px] gap-[20px]'>
-                    <div>
+                    <div >
                         <Link to="/">
                             <img src={logo} className='h-[150px] ' alt="logo" />
                         </Link>
                         <p className="pt-[22px] font-[400] font-inter text-[16px] leading-[24px] text-[#F9F7EF] lg:pb-[52px] md:pb-[30px] pb-[20px]">
                           Nirvaana Hills is not just land — it’s a forest crafted for living
                         </p>
-                        <div className="flex gap-[20px] md:gap-[30px]">
-                            <Link to="/facebook">
-                                <img src="/assets/footer/facebook.svg" alt="facebook" />
+                        <div className="flex gap-[20px] md:gap-[30px] text-[#fff] text-[20px]">
+                            <Link to="https://www.facebook.com/sead.realty">
+                                <i class="bi bi-facebook"></i>
                             </Link>
-                            <Link to="/instagram">
-                                <img src="/assets/footer/instagram.svg" alt="instagram" />
+                            <Link to="https://www.instagram.com/nirvaanahills/">
+         <i class="bi bi-instagram"></i>
                             </Link>
-                            <Link to="/print">
-                                <img src="/assets/footer/print.svg" alt="print" />
+                              <Link to="https://www.youtube.com/@NirvaanaHills">
+                               <i class="bi bi-youtube"></i>
                             </Link>
+                           
+                              <Link to="https://share.google/kHKxzAZCUMEsIIDJL">
+                              <i class="bi bi-google"></i>
+                            </Link>
+
+                              <Link to="https://www.linkedin.com/company/sead-realty/">
+                             <i class="bi bi-linkedin"></i>
+                            </Link>
+
+
                         </div>
                     </div>
                     <div className='lg:pt-[34px] pt-0'>
@@ -62,7 +72,11 @@ Sector 58, Gurugram 122011</p>
                             </div>
                             <div className="flex items-center gap-[14px]">
                                 <img src="/assets/footer/call.svg" alt="call" />
-                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">0124 4071184</p>
+                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">0124 4071184(Office)</p>
+                            </div>
+                              <div className="flex items-center gap-[14px]">
+                                <img src="/assets/footer/call.svg" alt="call" />
+                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">+91 84800-64800(Sales)</p>
                             </div>
                             <div className="flex items-center gap-[14px]">
                                 <img src="/assets/footer/mail.svg" alt="mail" />

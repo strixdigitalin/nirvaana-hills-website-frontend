@@ -126,7 +126,7 @@ reality,
  <br/>
 For those who value stillness wrapped in sophistication and beauty rooted in <br/> meaning, this is the beginning of something truly personal.</i></p>
  <br/>
- <h4 data-aos="fade-up" className='Belleza'>BECAUSE A OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING</h4>
+ <h4 data-aos="fade-up" className='Belleza'>BECAUSE  OWNING A LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING</h4>
 
 </div>
 </div>
@@ -204,7 +204,7 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
                         </div>
                     </div>
                 </section> */}
-                <section className='bg-[#46543B] pt-[25px] pb-[100px] lg:px-[100px] px-[20px]'>
+                <section className='bg-[#46543B] pt-[25px] pb-[100px] lg:px-[100px] px-[20px] back2'>
                 <br/>
                 <br/>
                     <h6 className="font-[500] text-center max-w-[504px] w-full mx-auto lg:pb-[80px] pb-[40px] font-cormorant  leading-[58px] capitalize text-[#FFFFFF] Belleza lifeatnirvaana-h6" data-aos="fade-up">LIFE AT NIRVAANA</h6>

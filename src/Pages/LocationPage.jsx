@@ -16,7 +16,7 @@ function LocationPage() {
        <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
 <img className="small-banner-logo" src={whitelogo}  data-aos="fade-up"/>
-<h3 className='Belleza'  data-aos="fade-up">Our Location</h3>
+<h3 className='Belleza'  data-aos="fade-up">OUR LOCATION</h3>
 
     </div>
     </div>
@@ -68,6 +68,10 @@ of Haryana (CUH)*   15 km I 15 mins</li>
 
     </div>
     </div> */}
+
+     <div className='map'>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.508893632435!2d76.0706328!3d28.403897599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d45898c3ccf2339%3A0xbcdd42083f79e894!2sNirvaana%20Hills%20by%20SEAD%20Realty!5e0!3m2!1sen!2sin!4v1756306768005!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     
     </>
   )

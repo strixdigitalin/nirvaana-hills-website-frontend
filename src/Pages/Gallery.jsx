@@ -36,7 +36,7 @@ const Gallery = () => {
    <div className='ab-banner ab-banner2'>
    <div className='ab-banner-overlay'>
   <img className="small-banner-logo" src={whitelogo}/>
-  <h3 className='Belleza'>Gallery</h3>
+  <h3 className='Belleza'>GALLERY</h3>
   
       </div>
       </div>

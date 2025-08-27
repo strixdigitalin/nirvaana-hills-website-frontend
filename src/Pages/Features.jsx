@@ -23,7 +23,7 @@ function Features() {
          <div className='ab-banner ab-banner2'>
  <div className='ab-banner-overlay'>
 <img className="small-banner-logo" src={whitelogo} data-aos="fade-up"/>
-<h3 className='Belleza' data-aos="fade-up">Features</h3>
+<h3 className='Belleza' data-aos="fade-up">FEATURES</h3>
 
     </div>
     </div>
