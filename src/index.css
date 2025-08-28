@@ -355,6 +355,9 @@ background-repeat: no-repeat;
    background-size: 150px auto;
    background-repeat: no-repeat;
 }
+.whyus2{
+  padding: 50px 20px;
+}
 
 .whyus-card{
  width: 300px;
@@ -367,7 +370,7 @@ width: 30% ;
 }
 .whyus-card img{
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   border-radius: 20px;
 
@@ -729,8 +732,8 @@ width: 30% ;
 
 }
 .OurLegacy-div h3{
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   margin-top: 15px;
 }
 .OurLegacy-div h2 {

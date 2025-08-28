@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link"; // 👈 yeh add karo
 import { Menu, X } from "lucide-react";
-import whatsapp from '../../Assets/WhatsApp.webp'
-import call from '../../Assets/call icon.png'
+import whatsapp from '../../Assets/WhatsApp.webp';
+import call from '../../Assets/call icon.png';
 
 const menu = [
   {
@@ -13,20 +14,20 @@ const menu = [
     label: "The Project",
     mLink: "/theproject",
     dropdown: [
-      { label: "About Nirvaana Hills", mLink: "/theproject/overview" },
-      { label: "Nirvaana Mean", mLink: "/theproject/masterplan" },
-      { label: "Why Choose Us", mLink: "/theproject/architecture" },
-      { label: "FAQ", mLink: "/theproject/architecture" },
+      { label: "About Nirvaana Hills", mLink: "/theproject#ourstory" },
+      { label: "Nirvaana Mean", mLink: "/theproject#nirvaana-meaning" },
+      { label: "Why Choose Us", mLink: "/theproject#whychooseusid" },
+      { label: "FAQ", mLink: "/theproject#faqid" },
     ],
   },
   {
     label: "Features",
     mLink: "/features",
     dropdown: [
-      { label: "Project features", mLink: "/features/clubhouse" },
-      { label: "Community features", mLink: "/features/sports" },
-      { label: "Individual features", mLink: "/features/greenspaces" },
-      { label: "Clubhouse features", mLink: "/features/greenspaces" },
+      { label: "Project features", mLink: "/features#Projectfeatures" },
+      { label: "Community features", mLink: "/features#Communityfeatures" },
+      { label: "Individual features", mLink: "/features#Individualfeatures" },
+      { label: "Clubhouse features", mLink: "/features#Clubhousefeatures" },
     ],
   },
   {
@@ -37,13 +38,13 @@ const menu = [
     label: "Life at Nirvaana",
     mLink: "/LifeAtNirvaana",
     dropdown: [
-      { label: "Belonging", mLink: "/LifeAtNirvaana/community" },
-      { label: "Grow Wild, Grow Free", mLink: "/LifeAtNirvaana/events" },
-      { label: "Sustainability", mLink: "/LifeAtNirvaana/wellness" },
-      { label: "Wellness", mLink: "/LifeAtNirvaana/wellness" },
-      { label: "Work–Life Balance", mLink: "/LifeAtNirvaana/wellness" },
-      { label: "Restart Life Together", mLink: "/LifeAtNirvaana/wellness" },
-      { label: "The Legacy", mLink: "/LifeAtNirvaana/wellness" },
+      { label: "Belonging", mLink: "/LifeAtNirvaana#community" },
+      { label: "Grow Wild, Grow Free", mLink: "/LifeAtNirvaana#events" },
+      { label: "Sustainability", mLink: "/LifeAtNirvaana#sustainability" },
+      { label: "Wellness", mLink: "/LifeAtNirvaana#wellness" },
+      { label: "Work–Life Balance", mLink: "/LifeAtNirvaana#balance" },
+      { label: "Restart Life Together", mLink: "/LifeAtNirvaana#restart" },
+      { label: "The Legacy", mLink: "/LifeAtNirvaana#legacy" },
     ],
   },
   {
@@ -99,15 +100,17 @@ function Header() {
 
                 {/* Dropdown */}
                 {e.dropdown && dropdownOpen === i && (
-                  <ul className="absolute left-0 top-full mt-2 w-[200px] bg-white rounded-xl shadow-lg p-4 flex flex-col gap-2 z-50">
-                    {e.dropdown.map((sub, j) => (
-                      <Link
-                        key={j}
-                        to={sub.mLink}
-                        className="text-[15px] font-Belleza text-[#021E05] hover:text-[#6F7849] transition"
-                      >
-                        {sub.label}
-                      </Link>
+                  <ul className="absolute left-0 top-full w-[220px] bg-white rounded-xl shadow-lg p-4 flex flex-col gap-2 z-50">
+                    {e.dropdown.map((item, j) => (
+                      <li key={j}>
+                        <HashLink
+                          smooth
+                          to={item.mLink}
+                          className="text-[15px] font-Belleza text-[#021E05] hover:text-[#6F7849] transition text-left w-full block"
+                        >
+                          {item.label}
+                        </HashLink>
+                      </li>
                     ))}
                   </ul>
                 )}
@@ -142,14 +145,15 @@ function Header() {
                   {e.dropdown && (
                     <ul className="ml-4 mt-2 flex flex-col gap-2">
                       {e.dropdown.map((sub, j) => (
-                        <Link
+                        <HashLink
                           key={j}
+                          smooth
                           to={sub.mLink}
                           className="text-[15px] text-[#555] hover:text-[#6F7849] transition"
                           onClick={() => setIsOpen(false)}
                         >
                           {sub.label}
-                        </Link>
+                        </HashLink>
                       ))}
                     </ul>
                   )}
@@ -159,8 +163,8 @@ function Header() {
           </div>
         )}
       </header>
-      <img className="whatsapp-icon" src={whatsapp}/>
-      <img className="call-icon" src={call}/>
+      <img className="whatsapp-icon" src={whatsapp} />
+      <img className="call-icon" src={call} />
     </div>
   );
 }

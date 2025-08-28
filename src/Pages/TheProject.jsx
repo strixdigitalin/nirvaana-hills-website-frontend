@@ -47,7 +47,7 @@ BECAUSE OWNING LAND ISN’T JUST AN INVESTMENT, IT’S A LEGACY IN THE MAKING
 <img src={img}/>
     </div>
     </div> */}
-    <div className='home-aboutus UNFOLDS'>
+    <div className='home-aboutus UNFOLDS' id="ourstory">
 <div className='home-aboutus-overlay '>
 
 <h3 className='Belleza'  data-aos="fade-up">OUR STORY UNFOLDS</h3>
@@ -77,20 +77,21 @@ For those who value stillness wrapped in sophistication and beauty rooted in <br
 </div>
 </div>
 
-    <div className='meaning'>
+    <div className='meaning' id="nirvaana-meaning">
     <img data-aos="fade-up" src={newlogo}/>
     <h3 className='Belleza' data-aos="fade-up">NIRVAANA ~ निर्वाणा</h3>
     <h4 className='Belleza' data-aos="fade-up">(nir-vaah-nuh)</h4>
     <p data-aos="fade-up">Derived from ancient Sanskrit, “Nirvaana” means liberation—freedom from the cycle of noise, stress, and daily entanglements.
 It is the ultimate state of bliss and balance. In Buddhism, it signifies a soul’s release into peace, purpose, and presence.</p>
-   <p>Nirvaana Hills isn’t just a name, it’s a feeling. A whisper of calm in a chaotic world. A reminder that peace still exists, waiting to be embraced.</p>
+   <p>Nirvaana Hills isn’t just a name, it’s a feeling. A whisper of calm in a chaotic world.
+   <br/> A reminder that peace still exists, waiting to be embraced.</p>
     <h3 > </h3>
 
     </div>
     <div className='whyus-heading'>
 <h3 data-aos="fade-up" className='Belleza'>WHY CHOOSE NIRVAANA HILLS?</h3>
     </div>
-    <div className='whyus'>
+    <div className='whyus whyus2' id="whychooseusid">
  <div className='whyus-card' data-aos="fade-up">
 <img src={img2}/>
 <div className='whyus-text'>
@@ -157,7 +158,7 @@ A single, 200~ acre integrated community, not scattered parcels</p>
 </div>
     </div>
     </div>
-    <div className='faq-div'>
+    <div className='faq-div' id="faqid">
 
     <FAQ/>
     </div>

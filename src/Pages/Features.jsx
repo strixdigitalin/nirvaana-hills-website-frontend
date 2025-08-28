@@ -28,7 +28,7 @@ function Features() {
     </div>
     </div>
   
-       <div className='Features-div2'>
+       <div className='Features-div2' id="Projectfeatures">
        <div className='Features-div2-right' data-aos="fade-up">
 <img src={img}/>
     </div>
@@ -52,7 +52,7 @@ areas</li>
     </div>
       
     </div>
-    <div className='Features-div2'>
+    <div className='Features-div2' id="Communityfeatures">
     <div className='Features-div2-left' >
     <h3 data-aos="fade-up" className='Belleza'>Community features</h3>
     <p data-aos="fade-up">Nirvaana Hills is where the beauty of the hills meets the warmth of community. It’s
@@ -83,7 +83,7 @@ at core</li>
 <img src={com}/>
     </div>
     </div>
-     <div className='Features-div2'>
+     <div className='Features-div2' id="Individualfeatures">
        <div className='Features-div2-right' data-aos="fade-up">
 <img src={Individual}/>
     </div>
@@ -113,7 +113,7 @@ provision</li>
     </div>
       
     </div>
-      <div className='Features-div2'>
+      <div className='Features-div2' id="Clubhousefeatures">
     <div className='Features-div2-left' >
     <h3 className='Belleza' data-aos="fade-up">Clubhouse features
 </h3>

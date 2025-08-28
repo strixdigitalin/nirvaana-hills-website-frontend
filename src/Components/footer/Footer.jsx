@@ -5,7 +5,7 @@ import logo from '../../Assets/white logo.png'
 function Footer() {
     return (
         <>
-            <div className='bg-[#46543B] lg:px-[120px] md:px-[60px] px-[20px] lg:pt-[80px] md:pt-[60px] pt-[40px] footer-background'>
+            <div className='bg-[#46543B] lg:px-[50px] md:px-[60px] px-[20px] lg:pt-[80px] md:pt-[60px] pt-[40px] footer-background'>
                 <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-[70px] md:gap-[40px] gap-[20px]'>
                     <div >
                         <Link to="/">
@@ -72,11 +72,15 @@ Sector 58, Gurugram 122011</p>
                             </div>
                             <div className="flex items-center gap-[14px]">
                                 <img src="/assets/footer/call.svg" alt="call" />
-                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">0124 4071184(Office)</p>
+                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]  whitespace-nowrap">0124 4071184(Office)</p>
                             </div>
                               <div className="flex items-center gap-[14px]">
                                 <img src="/assets/footer/call.svg" alt="call" />
-                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">+91 84800-64800(Sales)</p>
+                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]  whitespace-nowrap">+91 84800-64800(Sales)</p>
+                            </div>
+                            <div className="flex items-center gap-[14px]">
+                                <img src="/assets/footer/call.svg" alt="call" />
+                                <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF] whitespace-nowrap">+91 95895-85050(Sales)</p>
                             </div>
                             <div className="flex items-center gap-[14px]">
                                 <img src="/assets/footer/mail.svg" alt="mail" />
