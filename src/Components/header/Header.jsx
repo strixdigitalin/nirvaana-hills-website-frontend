@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link"; // 👈 yeh add karo
+import { Link, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import whatsapp from '../../Assets/WhatsApp.webp';
-import call from '../../Assets/call icon.png';
+import whatsapp from "../../Assets/WhatsApp.webp";
+import call from "../../Assets/call icon.png";
 
 const menu = [
   {
@@ -68,6 +67,22 @@ const menu = [
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(null);
+  const navigate = useNavigate();
+
+  // Smooth scroll handler
+  const handleScroll = (path) => {
+    const [route, hash] = path.split("#");
+
+    navigate(route); // route par navigate karo
+    if (hash) {
+      setTimeout(() => {
+        const element = document.getElementById(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 200); // thoda delay taki route load ho jaye
+    }
+  };
 
   return (
     <div className="newnav">
@@ -103,13 +118,12 @@ function Header() {
                   <ul className="absolute left-0 top-full w-[220px] bg-white rounded-xl shadow-lg p-4 flex flex-col gap-2 z-50">
                     {e.dropdown.map((item, j) => (
                       <li key={j}>
-                        <HashLink
-                          smooth
-                          to={item.mLink}
+                        <button
+                          onClick={() => handleScroll(item.mLink)}
                           className="text-[15px] font-Belleza text-[#021E05] hover:text-[#6F7849] transition text-left w-full block"
                         >
                           {item.label}
-                        </HashLink>
+                        </button>
                       </li>
                     ))}
                   </ul>
@@ -145,15 +159,16 @@ function Header() {
                   {e.dropdown && (
                     <ul className="ml-4 mt-2 flex flex-col gap-2">
                       {e.dropdown.map((sub, j) => (
-                        <HashLink
+                        <button
                           key={j}
-                          smooth
-                          to={sub.mLink}
-                          className="text-[15px] text-[#555] hover:text-[#6F7849] transition"
-                          onClick={() => setIsOpen(false)}
+                          onClick={() => {
+                            handleScroll(sub.mLink);
+                            setIsOpen(false);
+                          }}
+                          className="text-[15px] text-[#555] hover:text-[#6F7849] transition text-left"
                         >
                           {sub.label}
-                        </HashLink>
+                        </button>
                       ))}
                     </ul>
                   )}
