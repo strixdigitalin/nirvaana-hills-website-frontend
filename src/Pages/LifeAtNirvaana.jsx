@@ -57,70 +57,69 @@ const timelineData = [
 ];
 
 const LifeAtNirvaana = () => {
-    useEffect(() => {
-              AOS.init({
-                duration: 1000, // animation duration in ms
-                once: true,     // whether animation should happen only once
-              });
-            }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration in ms
+      once: true,     // whether animation should happen only once
+    });
+  }, []);
   return (
     <>
-   <div className='ab-banner ab-banner2'>
- <div className='ab-banner-overlay'>
-<img className="small-banner-logo" src={whitelogo}  data-aos="fade-up"/>
-<h3 className='Belleza'  data-aos="fade-up">LIFE AT NIRVAANA</h3>
+      <div className='ab-banner ab-banner2'>
+        <div className='ab-banner-overlay'>
+          <img className="small-banner-logo" src={whitelogo} data-aos="fade-up" />
+          <h3 className='Belleza' data-aos="fade-up">LIFE AT NIRVAANA</h3>
 
-    </div>
-    </div>
-<div className="LifeNirvaana-div">
-
-    <div className="max-w-6xl mx-auto px-4 py-16 " >
-     
-
-      <div className="relative border-l-4  pl-6 space-y-24" style={{borderLeft: '10px solid #354123'}}>
-        {timelineData.map((item, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 100, scale: 0.95 }}
-            whileInView={{ opacity: 1, y: 0, scale: 1 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            className={`relative flex flex-col md:flex-row items-center gap-8 ${
-              index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-            }`}
-          >
-            {/* Circle marker */}
-            <span className="absolute -left-10 w-6 h-6 rounded-full border-4 border-white shadow-lg animate-pulse" style={{backgroundColor:'#354123'}} />
-
-            {/* Image with parallax-like effect */}
-            <motion.div
-              initial={{ x: index % 2 === 0 ? -100 : 100, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
-              className="flex-shrink-0 w-full md:w-1/2"
-            >
-              <img
-                src={item.image}
-                alt={item.title}
-                className="rounded-2xl shadow-xl w-full object-cover"
-              />
-            </motion.div>
-
-            {/* Text */}
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2, duration: 0.7 }}
-              className="w-full md:w-1/2"
-            >
-              <h3 className="text-3xl font-semibold mb-2 Belleza">{item.title}</h3>
-              <p className="text-1xl text-gray-600 leading-relaxed">{item.description}</p>
-            </motion.div>
-          </motion.div>
-        ))}
+        </div>
       </div>
-    </div>
-</div>
+      <div className="LifeNirvaana-div">
+
+        <div className="max-w-6xl mx-auto px-4 py-16 " >
+
+
+          <div className="relative border-l-4  pl-6 space-y-24" style={{ borderLeft: '10px solid #354123' }}>
+            {timelineData.map((item, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 100, scale: 0.95 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                className={`relative flex flex-col md:flex-row items-center gap-8 ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                  }`}
+              >
+                {/* Circle marker */}
+                <span className="absolute -left-10 w-6 h-6 rounded-full border-4 border-white shadow-lg animate-pulse" style={{ backgroundColor: '#354123' }} />
+
+                {/* Image with parallax-like effect */}
+                <motion.div
+                  initial={{ x: index % 2 === 0 ? -100 : 100, opacity: 0 }}
+                  whileInView={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.8, ease: "easeOut" }}
+                  className="flex-shrink-0 w-full md:w-1/2"
+                >
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="rounded-2xl shadow-xl w-full object-cover"
+                  />
+                </motion.div>
+
+                {/* Text */}
+                <motion.div
+                  initial={{ opacity: 0, y: 40 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.2, duration: 0.7 }}
+                  className="w-full md:w-1/2"
+                >
+                  <h3 className="text-3xl font-semibold mb-2 Belleza">{item.title}</h3>
+                  <p className="text-1xl text-gray-600 leading-relaxed">{item.description}</p>
+                </motion.div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
 
     </>
 

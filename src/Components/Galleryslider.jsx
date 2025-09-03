@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import ist from '../Assets/real (1).jpeg'
 import ist2 from '../Assets/real (1).jpg'
 import ist3 from '../Assets/real (2).jpeg'
-import ist4 from '../Assets/real (2).png'
+import ist4 from '../Assets/real (2).jpg'
 import ist5 from '../Assets/real (3).jpeg'
 import ist6 from '../Assets/real (3).jpg'
 import ist7 from '../Assets/real (4).jpeg'
 import ist8 from '../Assets/real (4).jpg'
 import ist9 from '../Assets/real (5).jpeg'
-import ist10 from '../Assets/real (5).png'
+import ist10 from '../Assets/real (5).jpg'
 
 
 const images = [
