@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import seedlogo from '../Assets/seed-removebg-preview.png'
 import seedlogo2 from '../Assets/Nirvaana Hills logo.png'
-import whitelogo from '../Assets/white logo.png'
+import whitelogo from '../Assets/white-logo.png'
 
 function OurLegacy() {
        useEffect(() => {

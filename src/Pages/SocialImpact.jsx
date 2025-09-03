@@ -9,7 +9,7 @@ import img6 from '../Assets/ist12.jpg'
 import img7 from '../Assets/impcat.jpg'
 import img8 from '../Assets/Solar Powered Community.jpg'
 import img9 from '../Assets/nhai.avif'
-import whitelogo from '../Assets/white logo.png'
+import whitelogo from '../Assets/white-logo.png'
 
 
 function SocialImpact() {

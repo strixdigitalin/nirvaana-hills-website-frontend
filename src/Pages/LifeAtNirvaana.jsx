@@ -7,9 +7,9 @@ import grow from '../Assets/brother-sister-playing-with-kite-plane-field-sunset.
 import Sustainability from '../Assets/hispanic-mother-daughter-harvesting-vegetables-together-garden.jpg'
 import yoga from '../Assets/ist3.jpg'
 import Work from '../Assets/belongig.jpg'
-import legacy from '../Assets/LAN THE LEGASY.jpg'
+import legacy from '../Assets/LAN-THE-LEGASY.jpg'
 import img6 from '../Assets/ist3.jpg'
-import whitelogo from '../Assets/white logo.png'
+import whitelogo from '../Assets/white-logo.png'
 
 const timelineData = [
   {

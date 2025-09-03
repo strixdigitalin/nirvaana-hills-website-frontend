@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img from '../Assets/Nirvaana Hills logo.png'
 import FAQ from '../Components/FAQ'
 import img2 from '../Assets/nested.jpg'
-import img3 from '../Assets/Seamless Entry to Ownership.jpg'
+import img3 from '../Assets/SeamlessEntrytoOwnership.jpg'
 import img4 from '../Assets/200.jpg'
 import img5 from '../Assets/ist2.jpg'
 import img6 from '../Assets/848.jpg'
@@ -12,7 +11,7 @@ import img7 from '../Assets/near.jpg'
 import img8 from '../Assets/Solar Powered Community.jpg'
 import img9 from '../Assets/33ft road.jpg'
 import newlogo from '../Assets/meaning logo.png'
-import whitelogo from '../Assets/white logo.png'
+import whitelogo from '../Assets/white-logo.png'
 function TheProject() {
          useEffect(() => {
         AOS.init({

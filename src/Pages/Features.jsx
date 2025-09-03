@@ -9,7 +9,7 @@ import img from '../Assets/project1.png'
 import com from '../Assets/comunity.png'
 import Clubhouse from '../Assets/clube.png'
 import Individual from '../Assets/indu.png'
-import whitelogo from '../Assets/white logo.png'
+import whitelogo from '../Assets/white-logo.png'
 
 function Features() {
        useEffect(() => {
