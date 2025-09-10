@@ -27,7 +27,7 @@ function OurLegacy() {
     </div> */}
     <div className='OurLegacy-div OurLegacy-div2'>
 <div className='OurLegacy-div-left'>
-<h3 data-aos="fade-up"><b>SEAD</b> Realty traces its legacy back over 2 decades, starting as <i><b>S</b>hreeram <b>E</b>states <b>A</b>nd <b>D</b>evelopers.</i>
+<h3 data-aos="fade-up"><b>SEAD</b> Realty traces its legacy back over 2 decades, starting as <br/><i><b>S</b>hreeram <b>E</b>states <b>A</b>nd <b>D</b>evelopers.</i>
 <br/>
 <br/>
 What began as a construction, and Real Estate Investment & Advisory firm has gradually evolved into a full-scale

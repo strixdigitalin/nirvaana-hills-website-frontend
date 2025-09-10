@@ -36,6 +36,8 @@ function ContactUs() {
     <h4>Call</h4>
     <p>(Office) 0124 4071184 </p>
     <p>(Sales) +91 84800-64800 </p>
+    <p>(Sales) +91 95895-85050 </p>
+    
     </div>
    </div>
    <div className='circle-icon-info'>

@@ -397,7 +397,8 @@ width: 30% ;
 .whyus-heading h3{
   text-align: center;
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 400;
+
   color: #354123;
   padding-top: 50px;
 }
@@ -1187,10 +1188,16 @@ padding: 20px;
   padding: 150px 20px;
 }
 }
+.question-text{
+  font-size: 16px;
+}
 @media (max-width: 768px) {
     .Home-slider-overlay p{
   color: white;
   font-size: 8px;
+}
+.question-text{
+  font-size: 14px;
 }
 .Home-slider-overlay h3{
   color: white;
@@ -1212,13 +1219,13 @@ padding: 20px;
   padding: 50px 20px;
 }
 .home-aboutus h3{
-  font-size: 35px;
+  font-size: 25px;
 }
 .home-aboutus h4{
   font-size: 16px;
 }
 .home-aboutus p{
-  font-size: 16px;
+  font-size: 14px;
 }
 .newfeatures-heading{
   text-align: center;
@@ -1267,7 +1274,7 @@ padding: 20px;
 
 }
 .ab-banner-overlay h3{
-  font-size: 35px;
+  font-size: 20px;
 }
 .gallery {
   padding: 20px;
@@ -1278,6 +1285,14 @@ padding: 20px;
 
 
 @media (max-width: 750px) {
+  .whyus-text h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+.whyus-text p{
+  font-size: 14px;
+  margin-top: 10px;
+}
   .whyus-card{
     width: 100%;
   }
@@ -1286,11 +1301,11 @@ padding: 20px;
   gap: 20px;
 }
 .whyus-heading h3{
-  font-size: 35px;
+  font-size: 25px;
 
 }
 .faq-heading{
-    font-size: 35px;
+    font-size: 25px;
 
 }
 }
@@ -1323,13 +1338,20 @@ padding: 20px;
 .Features-div2-right{
   width: 100%;
 }
+
 .Features-div2{
   flex-direction: column;
   gap: 30px;
   padding: 20px;
 }
+.Features-div3{
+  flex-direction: column-reverse !important;
+}
   .Features-div2-left h3{
   font-size: 30px;
+}
+.Features-div2-right img{
+  width: 100%;
 }
 }
 @media (max-width: 1200px) {

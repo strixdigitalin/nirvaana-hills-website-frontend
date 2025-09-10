@@ -92,9 +92,9 @@ function FAQ() {
           >
             <button
               onClick={() => toggleFAQ(index)}
-              className="w-full flex justify-between items-center p-4 text-left font-medium text-lg"
+              className="w-full flex justify-between items-center p-4 text-left font-medium "
             >
-              <span>{faq.question}</span>
+              <span className="question-text">{faq.question}</span>
               <span className="text-xl">
                 {openIndex === index ? "−" : "+"}
               </span>

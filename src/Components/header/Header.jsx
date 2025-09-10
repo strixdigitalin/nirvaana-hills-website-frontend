@@ -178,8 +178,12 @@ function Header() {
           </div>
         )}
       </header>
+    <a href="https://wa.me/918480064800" target="_blank" rel="noopener noreferrer">
       <img className="whatsapp-icon" src={whatsapp} />
-      <img className="call-icon" src={call} />
+</a>
+<a href="tel:+918480064800">
+  <img className="call-icon" src={call} alt="Call Icon" />
+</a>
     </div>
   );
 }
