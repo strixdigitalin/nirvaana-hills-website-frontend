@@ -6,31 +6,31 @@ function Footer() {
     return (
         <>
             <div className='bg-[#46543B] lg:px-[50px] md:px-[60px] px-[20px] lg:pt-[80px] md:pt-[60px] pt-[40px] footer-background'>
-                <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-[70px] md:gap-[40px] gap-[20px]'>
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-[50px] md:gap-[40px] gap-[20px]'>
                     <div >
                         <Link to="/">
                             <img src={logo} className='h-[150px] ' alt="logo" />
                         </Link>
                         <p className="pt-[22px] font-[400] font-inter text-[16px] leading-[24px] text-[#F9F7EF] lg:pb-[52px] md:pb-[30px] pb-[20px]">
-                          Nirvaana Hills is not just land — it’s a forest crafted for living
+                            Nirvaana Hills is not just land — it’s a forest crafted for living
                         </p>
                         <div className="flex gap-[20px] md:gap-[30px] text-[#fff] text-[20px]">
                             <Link to="https://www.facebook.com/sead.realty">
                                 <i class="bi bi-facebook"></i>
                             </Link>
                             <Link to="https://www.instagram.com/nirvaanahills/">
-         <i class="bi bi-instagram"></i>
+                                <i class="bi bi-instagram"></i>
                             </Link>
-                              <Link to="https://www.youtube.com/@NirvaanaHills">
-                               <i class="bi bi-youtube"></i>
-                            </Link>
-                           
-                              <Link to="https://share.google/kHKxzAZCUMEsIIDJL">
-                              <i class="bi bi-google"></i>
+                            <Link to="https://www.youtube.com/@NirvaanaHills">
+                                <i class="bi bi-youtube"></i>
                             </Link>
 
-                              <Link to="https://www.linkedin.com/company/sead-realty/">
-                             <i class="bi bi-linkedin"></i>
+                            <Link to="https://share.google/kHKxzAZCUMEsIIDJL">
+                                <i class="bi bi-google"></i>
+                            </Link>
+
+                            <Link to="https://www.linkedin.com/company/sead-realty/">
+                                <i class="bi bi-linkedin"></i>
                             </Link>
 
 
@@ -68,13 +68,13 @@ function Footer() {
                             <div className="flex items-start gap-[14px]">
                                 <img src="/assets/footer/location.svg" alt="location" />
                                 <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">812, Magnum Global Park, Golf Course Ext. Road,
-Sector 58, Gurugram 122011</p>
+                                    Sector 58, Gurugram 122011</p>
                             </div>
                             <div className="flex items-center gap-[14px]">
                                 <img src="/assets/footer/call.svg" alt="call" />
                                 <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]  whitespace-nowrap">0124 4071184(Office)</p>
                             </div>
-                              <div className="flex items-center gap-[14px]">
+                            <div className="flex items-center gap-[14px]">
                                 <img src="/assets/footer/call.svg" alt="call" />
                                 <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]  whitespace-nowrap">+91 84800-64800(Sales)</p>
                             </div>
@@ -86,7 +86,7 @@ Sector 58, Gurugram 122011</p>
                                 <img src="/assets/footer/mail.svg" alt="mail" />
                                 <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">info@seadrealty.com </p>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
