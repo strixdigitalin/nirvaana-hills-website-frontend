@@ -14,13 +14,15 @@ import OurLegacy from './Pages/OurLegacy';
 import LocationPage from './Pages/LocationPage';
 import SocialImpact from './Pages/SocialImpact';
 import AutoModal from './Components/AutoModal';
+import { ToastContainer } from 'react-toastify';
 function App() {
   return (
     <>
-    <ScrollToTop />
+      <ToastContainer />
+      <ScrollToTop />
       <Header />
       <Routes>
-   <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/theproject" element={<TheProject />} />
         <Route path="/features" element={<Features />} />
         <Route path="/contact" element={<ContactUs />} />
@@ -30,9 +32,6 @@ function App() {
         <Route path="/ourlegacy" element={<OurLegacy />} />
         <Route path="/locationpage" element={<LocationPage />} />
         <Route path="/socialimpact" element={<SocialImpact />} />
-
-
-        
       </Routes>
       <AutoModal />
       <Footer />
