@@ -60,9 +60,9 @@ const AutoModal = () => {
 
       if (data?.Status) {
         if (data?.Duplicate) {
-          toast.error(`Lead already exists! Lead ID: ${data?.Lead_Id}`);
+          toast.error(`Lead already exists!`);
         } else {
-          toast.success(`Lead created successfully! Lead ID: ${data?.Lead_Id}`);
+          toast.success(`Lead created successfully!`);
         }
         setName("");
         setEmail("");
