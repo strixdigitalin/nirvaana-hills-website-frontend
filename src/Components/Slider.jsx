@@ -8,6 +8,7 @@ import 'swiper/css';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 function Slider() {
   return (
@@ -30,8 +31,10 @@ function Slider() {
           <div className='Home-slider1 Home-slider11'>
             <div className='Home-slider-overlay'>
               <h3>Over 1,00,000+  Trees</h3>
-              <p>Experience serenity surrounded by over 1,00,000 lush green trees,<br/> bringing you closer to nature every day.</p>
-              <button>Read More</button>
+              <p>Experience serenity surrounded by over 1,00,000 lush green trees,<br /> bringing you closer to nature every day.</p>
+              <Link to="/theproject">
+                <button>Read More</button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -40,8 +43,10 @@ function Slider() {
           <div className='Home-slider1 Home-slider12'>
             <div className='Home-slider-overlay'>
               <h3>200 Acres of Pure Living</h3>
-              <p>Join one of the Biggest Farmland community of North India,<br/> designed for like-minded families who believe in premium lifestyle living.</p>
-              <button>Read More</button>
+              <p>Join one of the Biggest Farmland community of North India,<br /> designed for like-minded families who believe in premium lifestyle living.</p>
+              <Link to="/theproject">
+                <button>Read More</button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -50,8 +55,10 @@ function Slider() {
           <div className='Home-slider1 Home-slider33'>
             <div className='Home-slider-overlay'>
               <h3>At the Foot of the Aravallis</h3>
-              <p>Wake up to the breathtaking views of the majestic Aravalli Hills, <br/> blending natural beauty with peaceful living.</p>
-              <button>Read More</button>
+              <p>Wake up to the breathtaking views of the majestic Aravalli Hills, <br /> blending natural beauty with peaceful living.</p>
+              <Link to="/theproject">
+                <button>Read More</button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -60,8 +67,10 @@ function Slider() {
           <div className='Home-slider1 Home-slider44'>
             <div className='Home-slider-overlay'>
               <h3>Living by the Golf Range</h3>
-              <p>Wake up to the greens of a Golf Range right at your doorstep,<br/> where leisure blends with lifestyle.</p>
-              <button>Read More</button>
+              <p>Wake up to the greens of a Golf Range right at your doorstep,<br /> where leisure blends with lifestyle.</p>
+              <Link to="/theproject">
+                <button>Read More</button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -70,8 +79,10 @@ function Slider() {
           <div className='Home-slider1 Home-slider55'>
             <div className='Home-slider-overlay'>
               <h3>The Clubhouse at Nirvaana</h3>
-              <p>Celebrate life at our exclusive clubhouse with modern amenities,<br/> recreation, and premium gatherings.</p>
-              <button>Read More</button>
+              <p>Celebrate life at our exclusive clubhouse with modern amenities,<br /> recreation, and premium gatherings.</p>
+              <Link to="/theproject">
+                <button>Read More</button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
