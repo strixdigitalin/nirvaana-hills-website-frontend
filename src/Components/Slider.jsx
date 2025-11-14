@@ -59,8 +59,8 @@ function Slider() {
         <SwiperSlide>
           <div className='Home-slider1 Home-slider44'>
             <div className='Home-slider-overlay'>
-              <h3>Living by the Golf Course</h3>
-              <p>Wake up to the greens of a golf course right at your doorstep,<br/> where leisure blends with lifestyle.</p>
+              <h3>Living by the Golf Range</h3>
+              <p>Wake up to the greens of a Golf Range right at your doorstep,<br/> where leisure blends with lifestyle.</p>
               <button>Read More</button>
             </div>
           </div>

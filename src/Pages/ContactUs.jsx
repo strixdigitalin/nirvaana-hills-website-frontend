@@ -120,7 +120,7 @@ function ContactUs() {
 
             <div>
               <h4>Address</h4>
-              <p>812, Magnum Global Park, <br />Golf Course Ext. Road,<br />G Sector 58, Gurugram 122011
+              <p>812, Magnum Global Park, <br />Golf Range Ext. Road,<br />G Sector 58, Gurugram 122011
               </p>
             </div>
           </div>

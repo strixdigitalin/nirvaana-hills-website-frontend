@@ -64,9 +64,6 @@ function Home() {
                     >
                         <img data-aos="fade-up" className='banner-logo' src={newlogo} />
 
-                        {/* <h1 className="font-[400] text-[84px] leading-[100px] text-[#FFFFFF] pb-[25px] main-h1">
-          Welcome To Nirvaana Hills
-        </h1> */}
                         <p data-aos="fade-up" className="max-w-[720px] w-full mx-auto font-Montserrat font-[400] text-[16px] leading-[27px] text-[#FFFFFF] pb-[26px] lg:pb-[54px] py-[18px]">
                             Set within the heart of the Aravallis, Nirvaana Hills is a 200~acre Farmland Community in North India, unfolding across serene and untouched land,  where forests blend into hills, and every corner holds quiet promise.
                         </p>
@@ -74,6 +71,12 @@ function Home() {
                             Get In Touch
                         </button>
                     </motion.div>
+                    <div className="fixed bottom-[20px] left-0 w-full bg-black/40 backdrop-blur-sm py-2 z-[200]">
+                        <p className="text-center text-white font-bold tracking-wider text-sm sm:text-base">
+                            OFFICIAL PAGE OF NIRVAANA HILLS
+                        </p>
+                    </div>
+
                 </section>
                 <Slider />
                 {/* <section className="lg:pt-[106px] pt-[60px] lg:px-[175px] px-[20px]">

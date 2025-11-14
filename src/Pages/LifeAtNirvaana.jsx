@@ -65,14 +65,14 @@ const LifeAtNirvaana = () => {
   }, []);
   return (
     <>
-      <div className='ab-banner ab-banner2'>
+      <div className='ab-banner overflow-hidden ab-banner2'>
         <div className='ab-banner-overlay'>
           <img className="small-banner-logo" src={whitelogo} data-aos="fade-up" />
           <h3 className='Belleza' data-aos="fade-up">LIFE AT NIRVAANA</h3>
 
         </div>
       </div>
-      <div className="LifeNirvaana-div">
+      <div className="LifeNirvaana-div overflow-hidden">
 
         <div className="max-w-6xl mx-auto px-4 py-16 " >
 

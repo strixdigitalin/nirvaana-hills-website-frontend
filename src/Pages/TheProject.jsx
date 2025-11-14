@@ -127,8 +127,8 @@ A single, 200~ acre integrated community, not scattered parcels</p>
      <div className='whyus-card' data-aos="fade-up">
 <img src={img6}/>
 <div className='whyus-text'>
-<h3>Golf Course & Clubhouse</h3>
-<p>Golf Course & modern Clubhouse for leisure and recreation.</p>
+<h3>Golf Range & Clubhouse</h3>
+<p>Golf Range & modern Clubhouse for leisure and recreation.</p>
 
 </div>
     </div>

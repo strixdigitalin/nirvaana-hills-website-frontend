@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import whatsapp from "../../Assets/WhatsApp.webp";
@@ -14,7 +14,7 @@ const menu = [
     mLink: "/theproject",
     dropdown: [
       { label: "About Nirvaana Hills", mLink: "/theproject#ourstory" },
-      { label: "Nirvaana Mean", mLink: "/theproject#nirvaana-meaning" },
+      { label: "Nirvaana Meaning", mLink: "/theproject#nirvaana-meaning" },
       { label: "Why Choose Us", mLink: "/theproject#whychooseusid" },
       { label: "FAQ", mLink: "/theproject#faqid" },
     ],
@@ -67,6 +67,7 @@ const menu = [
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(null);
+  const [visible, setVisible] = useState(false);
   const navigate = useNavigate();
 
   // Smooth scroll handler
@@ -82,6 +83,23 @@ function Header() {
         }
       }, 200); // thoda delay taki route load ho jaye
     }
+  };
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.scrollY > 200) {
+        setVisible(true);
+      } else {
+        setVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -178,12 +196,20 @@ function Header() {
           </div>
         )}
       </header>
-    <a href="https://wa.me/918480064800" target="_blank" rel="noopener noreferrer">
-      <img className="whatsapp-icon" src={whatsapp} />
-</a>
-<a href="tel:+918480064800">
-  <img className="call-icon" src={call} alt="Call Icon" />
-</a>
+      <div className="fixed lg:bottom-[50px] bottom-[25px] right-[30px] z-[100] flex flex-col gap-[16px] items-center">
+        {visible && (
+          <div onClick={scrollTop}
+            className="bg-[#6F7849] cursor-pointer lg:h-[50px] h-[24px] lg:w-[50px] w-[24px] flex justify-center items-center rounded-full border border-[#6F7849] transition-all duration-300 hover:bg-[#FFFFFF] hover:text-[#6F7849] font-[400] font-bricolage text-[18px] leading-[21px] text-[#FFFFFF]">
+            ⬆
+          </div>
+        )}
+        <a href="tel:+918480064800">
+          <img src={call} className="lg:h-[50px] h-[24px] lg:w-[50px] w-[24px] object-cover" alt="Call Icon" />
+        </a>
+        <a href="https://wa.me/918480064800" target="_blank" rel="noopener noreferrer">
+          <img src={whatsapp} alt="whatsapp" className="lg:h-[50px] h-[24px] lg:w-[50px] w-[24px] object-cover" />
+        </a>
+      </div>
     </div>
   );
 }

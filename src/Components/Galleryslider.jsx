@@ -10,7 +10,6 @@ import ist8 from '../Assets/real (4).jpg'
 import ist9 from '../Assets/real (5).jpeg'
 import ist10 from '../Assets/real (5).jpg'
 
-
 const images = [
   ist,
   ist2,
@@ -23,39 +22,48 @@ const images = [
   ist9,
   ist10
 ];
+
 function Galleryslider() {
-     const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 4000); // 4 sec pr change hoga
+    }, 4000); 
     return () => clearInterval(interval);
   }, []);
+
   return (
     <>
-<div className="
-  relative w-full mx-auto 
-  h-[200px]    // mobile default
-  sm:h-[400px] // small screen
-  md:h-[500px] // medium screen
-  lg:h-[600px] // large screen
-  xl:h-[700px] // extra large screen
-  overflow-hidden shadow-lg
-">
-  {images.map((img, index) => (
-    <img
-      key={index}
-      src={img}
-      alt={`slide-${index}`}
-      className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${
-        index === current ? "opacity-100" : "opacity-0"
-      }`}
-    />
-  ))}
-</div>
+      <div
+        className="
+        relative w-full mx-auto 
+        h-[200px]
+        sm:h-[400px]
+        md:h-[500px]
+        lg:h-[600px]
+        xl:h-[700px]
+        overflow-hidden shadow-lg
+      "
+      >
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            alt={`slide-${index}`}
+            className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${
+              index === current ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
+
+        {/* Corner text added here */}
+        <p className="absolute bottom-3 right-3 text-[16px] md:text-[30px] text-white opacity-70 bg-black/30 px-2 py-[2px] rounded">
+          Actual Nirvaana Hills Images.
+        </p>
+      </div>
     </>
-  )
+  );
 }
 
-export default Galleryslider
+export default Galleryslider;

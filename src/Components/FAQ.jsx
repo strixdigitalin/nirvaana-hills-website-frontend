@@ -32,7 +32,7 @@ const faqs = [
   {
     question: "What lifestyle amenities does Nirvaana Hills offer?",
     answer:
-      "Nirvaana Hills is thoughtfully designed to be much more than just farmland ownership. The community offers a scenic golf course, clubhouse, curated forest trails, and table-to-farm living experiences, creating the perfect balance of leisure and nature. With the plantation of over 1,00,000 trees across dedicated green zones, residents enjoy a truly serene environment that enhances wellness, recreation, and community living."
+      "Nirvaana Hills is thoughtfully designed to be much more than just farmland ownership. The community offers a scenic Golf Range, clubhouse, curated forest trails, and table-to-farm living experiences, creating the perfect balance of leisure and nature. With the plantation of over 1,00,000 trees across dedicated green zones, residents enjoy a truly serene environment that enhances wellness, recreation, and community living."
   },
   {
     question: "Any sustainable practices which are being followed inside the community?",
