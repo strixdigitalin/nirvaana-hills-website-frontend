@@ -200,7 +200,7 @@ function Header() {
         {visible && (
           <div onClick={scrollTop}
             className="bg-[#6F7849] cursor-pointer lg:h-[50px] h-[24px] lg:w-[50px] w-[24px] flex justify-center items-center rounded-full border border-[#6F7849] transition-all duration-300 hover:bg-[#FFFFFF] hover:text-[#6F7849] font-[400] font-bricolage text-[18px] leading-[21px] text-[#FFFFFF]">
-            ⬆
+            <i class="bi bi-caret-up-fill"></i>
           </div>
         )}
         <a href="tel:+918480064800">

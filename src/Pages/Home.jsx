@@ -71,7 +71,7 @@ function Home() {
                             Get In Touch
                         </button>
                     </motion.div>
-                    <div className="fixed bottom-[20px] left-0 w-full bg-black/40 backdrop-blur-sm py-2 z-[200]">
+                    <div className=" w-full bg-black/40 backdrop-blur-sm py-2 z-[200] mt-[30px]">
                         <p className="text-center text-white font-bold tracking-wider text-sm sm:text-base">
                             OFFICIAL PAGE OF NIRVAANA HILLS
                         </p>

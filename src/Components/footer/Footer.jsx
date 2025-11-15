@@ -68,8 +68,7 @@ function Footer() {
                             <div className='grid grid-cols-1 gap-[16px] md:gap-[20px]'>
                                 <div className="flex items-start gap-[14px]">
                                     <img src="/assets/footer/location.svg" alt="location" />
-                                    <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">812, Magnum Global Park, Golf Range Ext. Road,
-                                        Sector 58, Gurugram 122011</p>
+                                    <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]">8th Floor, Magnum Global Park, Unit No. 812, Golf Course Ext Rd, Sector 58, Gurugram, Haryana 122098.</p>
                                 </div>
                                 <div className="flex items-center gap-[14px]">
                                     <img src="/assets/footer/call.svg" alt="call" />

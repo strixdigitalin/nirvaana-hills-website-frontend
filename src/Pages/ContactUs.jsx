@@ -120,7 +120,7 @@ function ContactUs() {
 
             <div>
               <h4>Address</h4>
-              <p>812, Magnum Global Park, <br />Golf Range Ext. Road,<br />G Sector 58, Gurugram 122011
+              <p>8th Floor, Magnum Global Park, <br/>Unit No. 812, Golf Course Ext Rd,<br/> Sector 58, Gurugram, Haryana 122098.
               </p>
             </div>
           </div>

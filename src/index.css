@@ -1764,3 +1764,7 @@ code {
     transform: rotate(360deg);
   }
 }
+
+.bi-caret-up-fill{
+  margin-top: -5px;
+}

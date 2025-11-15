@@ -58,7 +58,7 @@ function Galleryslider() {
         ))}
 
         {/* Corner text added here */}
-        <p className="absolute bottom-3 right-3 text-[16px] md:text-[30px] text-white opacity-70 bg-black/30 px-2 py-[2px] rounded">
+        <p className="absolute bottom-3 right-3 text-[16px] md:text-[16px] text-white opacity-70 bg-black/30 px-2 py-[2px] rounded">
           Actual Nirvaana Hills Images.
         </p>
       </div>
