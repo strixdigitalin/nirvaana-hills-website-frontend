@@ -1768,3 +1768,15 @@ code {
 .bi-caret-up-fill{
   margin-top: -5px;
 }
+/* .new-modal-img{
+  z-index: 1000 !important;
+  position: relative;
+  top: 1px;
+ width: 100%;
+
+  
+
+} */
+.index-1{
+  z-index: 1000;
+}

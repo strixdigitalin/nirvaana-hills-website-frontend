@@ -84,10 +84,10 @@ const AutoModal = () => {
     <div>
       {/* Modal */}
       {open && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50" onClick={() => setOpen(false)} >
-          <div className="rounded-2xl shadow-lg w-[80%] max-w-[600px] relative" onClick={(e) => e.stopPropagation()} >
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 index-1" onClick={() => setOpen(false)} >
+          <div className="rounded-2xl shadow-lg w-[80%] max-w-[500px] relative" onClick={(e) => e.stopPropagation()} >
             <button
-              className="absolute top-3 right-3 text-[#FFFFFF] hover:text-[#FFFFFF]"
+              className="absolute top-3 right-3 text-[#000] hover:text-[#46543B]"
               onClick={() => setOpen(false)}
             >
               ✖
@@ -99,7 +99,7 @@ const AutoModal = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/assets/modal.png" className="rounded-[14px]" alt="" />
+              <img src="/assets/newmodal.jpeg" className="rounded-[14px] new-modal-img" alt="" />
             </a>
             {/* <form className="flex flex-col gap-3 auto-modal">
               <input
