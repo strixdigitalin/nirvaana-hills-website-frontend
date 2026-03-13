@@ -33,7 +33,7 @@ function App() {
         <Route path="/locationpage" element={<LocationPage />} />
         <Route path="/socialimpact" element={<SocialImpact />} />
       </Routes>
-      <AutoModal />
+      {/* <AutoModal /> */}
       <Footer />
     </>
   );
