@@ -74,6 +74,10 @@ function Footer() {
                                     <img src="/assets/footer/call.svg" alt="call" />
                                     <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]  whitespace-nowrap">0124 4071184(Office)</p>
                                 </div>
+                                 <div className="flex items-center gap-[14px]">
+                                    <img src="/assets/footer/call.svg" alt="call" />
+                                    <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]  whitespace-nowrap">+91 85859-55580(Sales)</p>
+                                </div>
                                 <div className="flex items-center gap-[14px]">
                                     <img src="/assets/footer/call.svg" alt="call" />
                                     <p className="font-[400] font-inter text-[16px] leading-[20px] text-[#F9F7EF]  whitespace-nowrap">+91 84800-64800(Sales)</p>
